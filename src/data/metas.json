@@ -1,0 +1,178 @@
+{
+  "fuente": "Plan de Desarrollo Municipal 2024–2028, aprobado por el Concejo Municipal (Acuerdo N.° 6, Sesión 60-2024, 24 de setiembre de 2024). Elaborado por el Área de Planificación Institucional.",
+  "metas": [
+    {
+      "codigo": "ME21",
+      "plazo": "2025",
+      "texto": "Obtener la aprobación de la actualización del Plan Regulador Urbano y Rural",
+      "area": "Ordenamiento territorial",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Plazo 2025 ya venció — meta prioritaria para verificar. Pista: sección Plan Regulador en desamparados.go.cr."
+    },
+    {
+      "codigo": "ME31",
+      "plazo": "2025",
+      "texto": "Alcanzar el 85% del plan de acción de la Política de Niñez y Adolescencia",
+      "area": "Niñez y juventud",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Plazo 2025 ya venció — meta prioritaria para verificar. Pista: informes de cumplimiento en transparencia.desamparados.go.cr."
+    },
+    {
+      "codigo": "ME32",
+      "plazo": "2026",
+      "texto": "Actualizar el plan de acción de la Política de Equidad e Igualdad de Género",
+      "area": "Inclusión",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Plazo 2026. Pista: informes de cumplimiento."
+    },
+    {
+      "codigo": "ME11",
+      "plazo": "2028",
+      "texto": "Integrar el 90% de los servicios y trámites municipales al Gobierno Digital",
+      "area": "Tecnología",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: sección Muni Virtual en desamparados.go.cr para ver trámites disponibles en línea."
+    },
+    {
+      "codigo": "ME1",
+      "plazo": "2028",
+      "texto": "Alcanzar un 85% de ejecución del Plan Cantonal de Desarrollo Humano Local (PCDHL)",
+      "area": "Planificación",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: informes de cumplimiento y rendición de cuentas anuales."
+    },
+    {
+      "codigo": "ME2",
+      "texto": "Establecer el servicio municipal para la persona adulta mayor y con discapacidad",
+      "area": "Inclusión",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: informes de gestión social municipales."
+    },
+    {
+      "codigo": "ME13",
+      "plazo": "anual",
+      "texto": "Generar al menos una alianza estratégica por año para proyectos de inversión de impacto local",
+      "area": "Planificación",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: convenios suscritos en las actas del Concejo y rendición de cuentas."
+    },
+    {
+      "codigo": "ME15",
+      "plazo": "anual",
+      "texto": "Realizar cada año una feria de ambiente, agua y salud en el cantón",
+      "area": "Ambiente",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: redes sociales y noticias de la Municipalidad (Facebook: MuniDesamparados)."
+    },
+    {
+      "codigo": "ME16",
+      "plazo": "anual",
+      "texto": "Desarrollar un programa ambiental en dos centros educativos por año",
+      "area": "Ambiente",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: noticias y rendición de cuentas de la Alcaldía."
+    },
+    {
+      "codigo": "ME19",
+      "texto": "Desarrollar un programa integral de rescate de las áreas verdes del cantón",
+      "area": "Ambiente",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: informes de la Gestión de Saneamiento Ambiental."
+    },
+    {
+      "codigo": "ME20",
+      "texto": "Desarrollar la estrategia de recuperación de áreas comunales invadidas",
+      "area": "Espacio público",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: actas del Concejo (Comisión de Obras) e informes de la Alcaldía."
+    },
+    {
+      "codigo": "ME17",
+      "plazo": "bianual",
+      "texto": "Mantener actualizado cada dos años el inventario del sistema de alcantarillado municipal",
+      "area": "Infraestructura",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: informes de Servicios Públicos municipales."
+    },
+    {
+      "codigo": "ME23",
+      "texto": "Actualizar el Plan de Conservación, Desarrollo y Seguridad Vial con obras de movilidad",
+      "area": "Infraestructura",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: Plan Quinquenal Vial e informes de Gestión Vial. En 2025 se ejecutaron ₡1.457,4 M en vías (90% de ejecución según liquidación presupuestaria)."
+    },
+    {
+      "codigo": "ME28",
+      "plazo": "2028",
+      "texto": "Establecer ocho mecanismos de fortalecimiento para pequeños y medianos emprendimientos",
+      "area": "Economía local",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: ferias de emprendedores y convenios con instituciones en actas del Concejo."
+    },
+    {
+      "codigo": "ME27",
+      "texto": "Desarrollar la estrategia para impulsar el turismo rural comunitario",
+      "area": "Economía local",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: rendición de cuentas y noticias municipales de los distritos rurales."
+    },
+    {
+      "codigo": "ME29",
+      "plazo": "anual",
+      "texto": "Impulsar cuatro mecanismos anuales de atención y escucha para el bienestar emocional y social",
+      "area": "Salud",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: informes de la Gestión Social municipal."
+    },
+    {
+      "codigo": "ME30",
+      "plazo": "anual",
+      "texto": "Gestionar conectividad a internet en al menos tres zonas públicas por año",
+      "area": "Tecnología",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: actas del Concejo y noticias municipales sobre WiFi público."
+    },
+    {
+      "codigo": "ME35",
+      "texto": "Robustecer el equipo y tecnología de la Policía Municipal y su sistema de videovigilancia",
+      "area": "Seguridad",
+      "estado": "progreso",
+      "avance": 40,
+      "evidencia": "En enero 2026 el Concejo adjudicó (Sesión 01-2026) el alquiler de videovigilancia para 13 edificios municipales a $7.275/mes. La Licitación Menor 2025LE-000002 está en ejecución."
+    },
+    {
+      "codigo": "ME36",
+      "plazo": "anual",
+      "texto": "Establecer un programa de capacitación anual para los comités de seguridad comunitaria nuevos",
+      "area": "Seguridad",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: actas del Concejo, Comisión de Seguridad, e informes de Policía Municipal."
+    },
+    {
+      "codigo": "ME38",
+      "texto": "Contar con un programa de desarrollo cultural cantonal activo",
+      "area": "Cultura",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Pista: informes de la Banda Municipal y Sinfónica, y rendición de cuentas 2024-2025."
+    }
+  ]
+}

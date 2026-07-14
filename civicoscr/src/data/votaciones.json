@@ -1,0 +1,29 @@
+{
+  "nota": "Solo se incluyen votaciones reales con fuente verificable. Las actas completas están en transparencia.desamparados.go.cr → Rendición de cuentas → Actas y acuerdos.",
+  "votaciones": [
+    {
+      "fecha": "1 may 2026",
+      "titulo": "Elección del directorio del Concejo Municipal 2026–2028",
+      "resultado": "Aprobado",
+      "detalle": "El Frente Amplio rompió el bloque opositor y se alió con el PLN: Eduardo Guillén Gardela (FA) fue electo presidente y Karla Mora Rodríguez (PLN) vicepresidenta del Concejo para el bienio 2026–2028.",
+      "fuente": "Acta de la sesión solemne del 1 de mayo de 2026; cobertura de El Mundo CR"
+    },
+    {
+      "fecha": "24 set 2024",
+      "titulo": "Aprobación del Plan de Desarrollo Municipal 2024–2028",
+      "resultado": "Aprobado",
+      "detalle": "Acuerdo N.º 6 de la Sesión 60-2024. Este es el plan institucional que define las 38 metas estratégicas que CívicosCR rastrea en la pestaña de Metas.",
+      "fuente": "Plan de Desarrollo Municipal 2024–2028, portada oficial (desamparados.go.cr)"
+    },
+    {
+      "fecha": "1 may 2024",
+      "titulo": "Elección del directorio del Concejo Municipal 2024–2026",
+      "resultado": "Aprobado",
+      "favor": 6,
+      "contra": 4,
+      "ausente": 1,
+      "detalle": "María Isabel Llamas (PUSC) electa presidenta y Luis Flores (PNP) vicepresidente, gracias al bloque opositor (PUSC, PPSD, PNR, PNP, FA, PECC). Votaron en contra 3 PLN y 1 PLP; 1 ausencia (PECC) por salud. Fue la primera vez en la historia del cantón que la oposición controló el Concejo.",
+      "fuente": "Acta de la sesión solemne del 1 de mayo de 2024"
+    }
+  ]
+}

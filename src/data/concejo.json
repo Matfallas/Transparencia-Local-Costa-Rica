@@ -1,0 +1,47 @@
+{
+  "fuente": "Sitio oficial de la Municipalidad de Desamparados (desamparados.go.cr), junio 2026",
+  "partidos": {
+    "PLN":  { "nombre": "Liberación Nacional",             "color": "#0B7A45" },
+    "PUSC": { "nombre": "Unidad Social Cristiana",         "color": "#1D4E89" },
+    "FA":   { "nombre": "Frente Amplio",                   "color": "#E0A800" },
+    "PNR":  { "nombre": "Nueva República",                 "color": "#4A90D9" },
+    "PPSD": { "nombre": "Progreso Social Democrático",     "color": "#B03A2E" },
+    "PLP":  { "nombre": "Liberal Progresista",             "color": "#6C3FA0" },
+    "PNP":  { "nombre": "Nuestro Pueblo",                  "color": "#D9712A" },
+    "PECC": { "nombre": "Ecológico Comunal Costarricense", "color": "#159A80" }
+  },
+  "alcaldia": {
+    "nombre": "María Antonieta Naranjo Brenes",
+    "partido": "PLN",
+    "cargo": "Alcaldesa 2024–2028",
+    "nota": "Gobierna sin vicealcaldías: ambos vicealcaldes renunciaron en 2024 y los cargos quedaron vacantes."
+  },
+  "regidores": [
+    { "nombre": "Eduardo Guillén Gardela",          "partido": "FA",   "rol": "Presidente del Concejo (2026–2028)",                      "email": "eguillen@desamparados.go.cr" },
+    { "nombre": "Karla Vanessa Mora Rodríguez",     "partido": "PLN",  "rol": "Vicepresidenta del Concejo (2026–2028)",                  "email": "kmora@desamparados.go.cr" },
+    { "nombre": "Juan Chacón Castillo",             "partido": "PLN",  "rol": "Regidor propietario",                                     "email": "jchacon@desamparados.go.cr" },
+    { "nombre": "Gabriel Gustavo Picado Oviedo",   "partido": "PLN",  "rol": "Regidor propietario",                                     "email": "gpicado@desamparados.go.cr" },
+    { "nombre": "Jonathan Mauricio Chavarría Sibaja","partido": "PUSC","rol": "Regidor propietario",                                     "email": "jchavarria@desamparados.go.cr" },
+    { "nombre": "María Isabel Llamas Echeverría",  "partido": "PUSC", "rol": "Regidora propietaria · Presidenta del Concejo 2024–2026", "email": "mllamas@desamparados.go.cr" },
+    { "nombre": "Luis José Flores Jiménez",        "partido": "PNP",  "rol": "Regidor propietario · Vicepresidente Concejo 2024–2026",  "email": "luflores@desamparados.go.cr" },
+    { "nombre": "Kristhian Arturo Chacón Ureña",   "partido": "PNR",  "rol": "Regidor propietario",                                     "email": "kchacon@desamparados.go.cr" },
+    { "nombre": "Ricardo Antonio Arce Díaz",       "partido": "PPSD", "rol": "Regidor propietario",                                     "email": "rarce@desamparados.go.cr" },
+    { "nombre": "Luis Guillermo Gómez Godínez",    "partido": "PLP",  "rol": "Regidor propietario",                                     "email": "ggomez@desamparados.go.cr" },
+    { "nombre": "Jesús Rodríguez Gutiérrez",       "partido": "PECC", "rol": "Regidor propietario",                                     "email": "jgutierrez@desamparados.go.cr" }
+  ],
+  "suplentes": [
+    { "nombre": "Vinicio Alberto Valverde Chacón",   "partido": "PLN"  },
+    { "nombre": "Zaira Elena Romero Fallas",         "partido": "PLN"  },
+    { "nombre": "Manuel Araya Badilla",              "partido": "PLN"  },
+    { "nombre": "Randall Sibaja Miranda",            "partido": "PUSC" },
+    { "nombre": "Carmen Martínez Jackson",           "partido": "PUSC" },
+    { "nombre": "Mario Esteban Raitt Núñez",         "partido": "FA"   },
+    { "nombre": "Walter Jesús Garro Araya",          "partido": "PNR"  },
+    { "nombre": "William Solera Alfaro",             "partido": "PPSD" },
+    { "nombre": "Javier Umaña Valenciano",           "partido": "PLP"  },
+    { "nombre": "Adrián Eduardo Monge Monge",        "partido": "PNP"  },
+    { "nombre": "José Marcial Rodríguez Carvajal",  "partido": "PECC" }
+  ],
+  "contextoPolitico": "En 2024, por primera vez en la historia del cantón, un bloque opositor le arrebató al PLN el control del Concejo (Llamas/PUSC presidenta, Flores/PNP vicepresidente). En mayo 2026 el Frente Amplio rompió ese bloque y se alió con el PLN: Eduardo Guillén (FA) asumió la presidencia y Karla Mora (PLN) la vicepresidencia para 2026–2028.",
+  "sesiones": "El Concejo sesiona de forma ordinaria todos los lunes a las 6:00 p.m. en el salón de sesiones de la Municipalidad. Las sesiones son públicas."
+}

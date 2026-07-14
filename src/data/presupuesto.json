@@ -1,0 +1,38 @@
+{
+  "estado": "activo",
+  "anio": 2025,
+  "fuente": "Informe de Liquidación Presupuestaria 2025 — Alexander Segura Quesada, Encargado de Presupuesto, Municipalidad de Desamparados",
+  "nota_aprobacion": "Presupuesto inicial aprobado por la CGR mediante oficio N°DFOE-LOC-1911 del 18 dic 2024",
+  "total": 14300.8,
+  "total_definitivo": 18913.8,
+  "ingresos_reales": 19071.9,
+  "ejecucion": 88,
+  "superavit": 4082.2,
+  "fuenteOficial": "https://transparencia.desamparados.go.cr/rendicion-de-cuentas/presupuesto",
+  "detalle": [
+    {
+      "rubro": "Prog. I: Dirección y Adm. General",
+      "monto": 4151.6,
+      "ejecucion_pct": 95,
+      "nota": "Gastos administrativos, auditoría interna, transferencias a juntas de educación"
+    },
+    {
+      "rubro": "Prog. II: Servicios Comunales",
+      "monto": 8006.1,
+      "ejecucion_pct": 87,
+      "nota": "Recolección de residuos, mantenimiento vial, programas sociales, culturales y seguridad"
+    },
+    {
+      "rubro": "Prog. III: Inversiones",
+      "monto": 2103.5,
+      "ejecucion_pct": 71,
+      "nota": "Infraestructura vial (Ley 8114), obras comunales, proyectos de desarrollo cantonal"
+    }
+  ],
+  "hitos": [
+    "Patentes Municipales: ₡3.699,5 M recaudados (97% de lo proyectado)",
+    "Vías de comunicación terrestre: ₡1.457,4 M comprometidos (90% de ejecución por subpartida)",
+    "Equipo de transporte: ₡153,8 M comprometidos para renovación de flotilla municipal",
+    "Superávit total al 31 dic 2025: ₡4.082,2 M (libre + específico por transferencias de ley + fondos de servicios)"
+  ]
+}

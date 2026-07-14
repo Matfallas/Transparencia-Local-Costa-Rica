@@ -1,0 +1,160 @@
+{
+  "fuente": "Plan de Desarrollo Municipal 2024–2028, aprobado por el Concejo Municipal (Acuerdo N.º 6, Sesión 60-2024, 24 de setiembre de 2024)",
+  "metas": [
+    {
+      "codigo": "ME21",
+      "texto": "Obtener la aprobación de la actualización del Plan Regulador Urbano y Rural",
+      "area": "Ordenamiento territorial",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal. El plazo (2025) ya venció: meta prioritaria para verificar.",
+      "plazo": "2025"
+    },
+    {
+      "codigo": "ME31",
+      "texto": "Alcanzar el 85% del plan de acción de la Política de Niñez y Adolescencia",
+      "area": "Niñez y juventud",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal. El plazo (2025) ya venció: meta prioritaria para verificar.",
+      "plazo": "2025"
+    },
+    {
+      "codigo": "ME32",
+      "texto": "Actualizar el plan de acción de la Política de Equidad e Igualdad de Género",
+      "area": "Inclusión",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal.",
+      "plazo": "2026"
+    },
+    {
+      "codigo": "ME11",
+      "texto": "Integrar el 90% de la información, servicios y trámites municipales al Gobierno Digital",
+      "area": "Tecnología",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal.",
+      "plazo": "2028"
+    },
+    {
+      "codigo": "ME1",
+      "texto": "Alcanzar un 85% de ejecución del Plan Cantonal de Desarrollo Humano Local",
+      "area": "Planificación",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal.",
+      "plazo": "2028"
+    },
+    {
+      "codigo": "ME2",
+      "texto": "Establecer el servicio municipal para la persona adulta mayor y con discapacidad",
+      "area": "Inclusión",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal."
+    },
+    {
+      "codigo": "ME15",
+      "texto": "Realizar cada año una feria de ambiente, agua y salud en el cantón",
+      "area": "Ambiente",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal. También figura en el Plan de Gobierno de la alcaldía. Pista: redes y noticias municipales.",
+      "plazo": "anual"
+    },
+    {
+      "codigo": "ME16",
+      "texto": "Desarrollar un programa ambiental en dos centros educativos por año",
+      "area": "Ambiente",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal.",
+      "plazo": "anual"
+    },
+    {
+      "codigo": "ME19",
+      "texto": "Desarrollar un programa integral de rescate de las áreas verdes",
+      "area": "Ambiente",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal."
+    },
+    {
+      "codigo": "ME20",
+      "texto": "Desarrollar la estrategia de recuperación de áreas comunales invadidas",
+      "area": "Espacio público",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal. También figura en el Plan de Gobierno de la alcaldía."
+    },
+    {
+      "codigo": "ME23",
+      "texto": "Actualizar el Plan de Conservación, Desarrollo y Seguridad Vial con obras de movilidad",
+      "area": "Infraestructura",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal. Equivale al plan quinquenal de gestión vial del Plan de Gobierno."
+    },
+    {
+      "codigo": "ME28",
+      "texto": "Establecer ocho mecanismos de fortalecimiento para pequeños y medianos emprendimientos",
+      "area": "Economía local",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal.",
+      "plazo": "2028"
+    },
+    {
+      "codigo": "ME27",
+      "texto": "Desarrollar la estrategia para impulsar el turismo rural comunitario",
+      "area": "Economía local",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal. También figura en el Plan de Gobierno de la alcaldía."
+    },
+    {
+      "codigo": "ME29",
+      "texto": "Impulsar cuatro mecanismos anuales de atención y escucha para el bienestar emocional y social",
+      "area": "Salud",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal.",
+      "plazo": "anual"
+    },
+    {
+      "codigo": "ME30",
+      "texto": "Gestionar conectividad a internet en al menos tres zonas públicas cada año",
+      "area": "Tecnología",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal.",
+      "plazo": "anual"
+    },
+    {
+      "codigo": "ME35",
+      "texto": "Robustecer el equipo y la tecnología de la Policía Municipal y su sistema de videovigilancia",
+      "area": "Seguridad",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal. También figura en el Plan de Gobierno de la alcaldía."
+    },
+    {
+      "codigo": "ME36",
+      "texto": "Establecer un programa de capacitación anual para los comités de seguridad comunitaria nuevos",
+      "area": "Seguridad",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal.",
+      "plazo": "anual"
+    },
+    {
+      "codigo": "ME38",
+      "texto": "Contar con un programa de desarrollo cultural cantonal",
+      "area": "Cultura",
+      "estado": "sin-verificar",
+      "avance": 0,
+      "evidencia": "Meta del Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.º 6, Sesión 60-2024). Verificable en los informes de cumplimiento del portal de transparencia municipal."
+    }
+  ]
+}
