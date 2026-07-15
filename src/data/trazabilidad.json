@@ -1,0 +1,214 @@
+{
+  "nota": "Cruce entre los compromisos del Plan de Gobierno de campaña de la administración Naranjo (documento con el que se pidió el voto, publicado en desamparados.go.cr) y las metas estratégicas del Plan de Desarrollo Municipal 2024–2028 (el plan institucional vinculante, aprobado por el Concejo). Un compromiso 'institucionalizado' tiene meta con código y es rastreable; uno 'sin meta asociada' quedó fuera del plan institucional y no tiene mecanismo formal de seguimiento.",
+  "fuente_pg": "Plan de Gobierno Municipal 2024–2028, Matriz de implementación de ejes de trabajo (desamparados.go.cr)",
+  "fuente_pdm": "Plan de Desarrollo Municipal 2024–2028, metas estratégicas ME1–ME38 (Acuerdo N.° 6, Sesión 60-2024)",
+  "compromisos": [
+    {
+      "eje": "Fortalecimiento de la gestión Municipal",
+      "texto": "Realizar rendiciones de cuentas anuales en el Cantón (charlas, foros, redes)",
+      "metas": [
+        "ME12"
+      ],
+      "estado": "institucionalizado",
+      "nota": "El PDM lo recoge en la estrategia de comunicación y participación ciudadana (ME12, no incluida entre las 20 rastreadas — candidata a agregarse)."
+    },
+    {
+      "eje": "Fortalecimiento de la gestión Municipal",
+      "texto": "Dar seguimiento al control de ingresos y disminuir la morosidad",
+      "metas": [
+        "ME7",
+        "ME8"
+      ],
+      "estado": "institucionalizado",
+      "nota": "ME7 (estrategia de morosidad) y ME8 (sistema integrado financiero-tributario)."
+    },
+    {
+      "eje": "Fortalecimiento de la gestión Municipal",
+      "texto": "Compras públicas orientadas a la planificación institucional",
+      "metas": [],
+      "estado": "sin-meta",
+      "nota": "Sin meta específica en el PDM. Dato relevante: la moción para publicar el Plan de Adquisiciones fue improbada en feb 2026 (Alerta A2)."
+    },
+    {
+      "eje": "Fortalecimiento de la gestión Municipal",
+      "texto": "Vincular la Municipalidad al Gobierno Digital",
+      "metas": [
+        "ME11"
+      ],
+      "estado": "institucionalizado",
+      "nota": "ME11: integrar el 90% de trámites al Gobierno Digital al 2028."
+    },
+    {
+      "eje": "Fortalecimiento de la gestión Municipal",
+      "texto": "Área municipal de igualdad y equidad de género; seguimiento a políticas de niñez y adulto mayor",
+      "metas": [
+        "ME2",
+        "ME31",
+        "ME32"
+      ],
+      "estado": "institucionalizado",
+      "nota": "Servicio para adulto mayor y discapacidad (ME2), política de niñez (ME31, plazo vencido), política de género (ME32)."
+    },
+    {
+      "eje": "Fortalecimiento de la gestión Municipal",
+      "texto": "Capacitación y cumplimiento de la Ley 7600 (accesibilidad) en coordinación interinstitucional",
+      "metas": [
+        "ME24"
+      ],
+      "estado": "parcial",
+      "nota": "El PDM recoge la accesibilidad vía movilidad peatonal (ME24, Ley 9976); la capacitación con el CNREE no tiene meta propia."
+    },
+    {
+      "eje": "Introducción del Plan de Gobierno",
+      "texto": "Presupuestos participativos para simplificar la vida del habitante",
+      "metas": [],
+      "estado": "sin-meta",
+      "nota": "Prometidos en la página 2 del Plan de Gobierno; ninguna meta del PDM los operacionaliza y no se encontró acuerdo del Concejo que los implemente en el corpus 2024–2026."
+    },
+    {
+      "eje": "Salubridad Pública",
+      "texto": "Mantenimiento del centro de acopio y compostaje",
+      "metas": [
+        "ME14"
+      ],
+      "estado": "institucionalizado",
+      "nota": "Vinculado al plan mancomunado de gestión de residuos (ME14)."
+    },
+    {
+      "eje": "Salubridad Pública",
+      "texto": "Feria anual de ambiente, agua y salud",
+      "metas": [
+        "ME15"
+      ],
+      "estado": "institucionalizado",
+      "nota": "Correspondencia directa con ME15 (rastreada)."
+    },
+    {
+      "eje": "Salubridad Pública",
+      "texto": "Programas de rescate de áreas verdes y educación ambiental en centros educativos",
+      "metas": [
+        "ME19",
+        "ME16"
+      ],
+      "estado": "institucionalizado",
+      "nota": "ME19 (áreas verdes) y ME16 (programa ambiental en dos centros educativos al año)."
+    },
+    {
+      "eje": "Salubridad Pública",
+      "texto": "Mejorar recolección de residuos, aseo de vías y alcantarillado",
+      "metas": [
+        "ME17",
+        "ME18"
+      ],
+      "estado": "institucionalizado",
+      "nota": "Inventario bianual del alcantarillado (ME17) y mejora del sistema pluvial (ME18)."
+    },
+    {
+      "eje": "Desarrollo Urbano",
+      "texto": "Diagnóstico y recuperación de áreas comunales invadidas",
+      "metas": [
+        "ME20"
+      ],
+      "estado": "institucionalizado",
+      "nota": "Correspondencia directa con ME20 (rastreada)."
+    },
+    {
+      "eje": "Desarrollo Urbano",
+      "texto": "Actualizar el plan quinquenal de gestión vial",
+      "metas": [
+        "ME23"
+      ],
+      "estado": "institucionalizado",
+      "nota": "ME23 (rastreada, en progreso): el Plan Quinquenal 2026-2030 ya fue publicado."
+    },
+    {
+      "eje": "Desarrollo Urbano",
+      "texto": "Aprobación e implementación del Plan Regulador Urbano y Rural actualizado",
+      "metas": [
+        "ME21"
+      ],
+      "estado": "institucionalizado",
+      "nota": "ME21 con plazo 2025 — vencido; el trámite sigue en comisión en 2026 (Alerta A3)."
+    },
+    {
+      "eje": "Servicios Sociales",
+      "texto": "Fiscalizar el Comité Cantonal de Deportes y velar por la infraestructura deportiva",
+      "metas": [
+        "ME37"
+      ],
+      "estado": "institucionalizado",
+      "nota": "ME37: infraestructura deportiva y recreativa."
+    },
+    {
+      "eje": "Servicios Sociales",
+      "texto": "Apoyar la Banda y la Sinfónica Municipal; actividades culturales distritales",
+      "metas": [
+        "ME38"
+      ],
+      "estado": "institucionalizado",
+      "nota": "ME38: programa de desarrollo cultural cantonal (rastreada, cumplida)."
+    },
+    {
+      "eje": "Servicios Sociales",
+      "texto": "Salud mental: espacios de escucha profesional y prevención del suicidio",
+      "metas": [
+        "ME29"
+      ],
+      "estado": "institucionalizado",
+      "nota": "ME29 (rastreada): cuatro mecanismos anuales de bienestar emocional."
+    },
+    {
+      "eje": "Servicios Sociales",
+      "texto": "Conectividad a internet y fomento de habilidades STEAM",
+      "metas": [
+        "ME30"
+      ],
+      "estado": "institucionalizado",
+      "nota": "ME30 (rastreada): internet en al menos tres zonas públicas por año."
+    },
+    {
+      "eje": "Servicios Sociales",
+      "texto": "Turismo rural comunitario en los distritos rurales",
+      "metas": [
+        "ME27"
+      ],
+      "estado": "institucionalizado",
+      "nota": "Correspondencia directa con ME27 (rastreada)."
+    },
+    {
+      "eje": "Servicios Sociales",
+      "texto": "Ferias de emprendedores y ecosistema de emprendimiento cantonal",
+      "metas": [
+        "ME26",
+        "ME28"
+      ],
+      "estado": "institucionalizado",
+      "nota": "ME26 (atracción de negocios) y ME28 (ocho mecanismos de apoyo a pymes al 2028)."
+    },
+    {
+      "eje": "Seguridad Ciudadana",
+      "texto": "Fortalecer la Policía Municipal (más efectivos) y la videovigilancia",
+      "metas": [
+        "ME35"
+      ],
+      "estado": "institucionalizado",
+      "nota": "ME35 (rastreada, en progreso): videovigilancia adjudicada en Sesión 01-2026 y plazas aprobadas para presupuesto 2026."
+    },
+    {
+      "eje": "Seguridad Ciudadana",
+      "texto": "Comités de policía comunitaria en el Cantón",
+      "metas": [
+        "ME36"
+      ],
+      "estado": "institucionalizado",
+      "nota": "ME36 (rastreada): capacitación anual a comités nuevos."
+    },
+    {
+      "eje": "Seguridad Ciudadana",
+      "texto": "Priorizar la seguridad y protección de las mujeres (reducción de agresiones y femicidios)",
+      "metas": [],
+      "estado": "sin-meta",
+      "nota": "Compromiso explícito del Plan de Gobierno sin meta específica en el PDM; la protección a mujeres aparece solo de forma genérica en la política de género (ME32)."
+    }
+  ]
+}

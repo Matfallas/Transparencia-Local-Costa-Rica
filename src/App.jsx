@@ -9,6 +9,7 @@ import canton from "./data/canton.json";
 import alertasData from "./data/alertas.json";
 import acuerdosData from "./data/acuerdos.json";
 import asistenciaData from "./data/asistencia.json";
+import trazabilidad from "./data/trazabilidad.json";
 import { CORREO_APORTES } from "./config.js";
 
 const C = {
@@ -454,6 +455,76 @@ export default function App() {
               </div>
             </div>
 
+            {/* Toggle: metas del PDM vs trazabilidad de campaña */}
+            <div style={{ display:"flex", gap:8, margin:"14px 0", flexWrap:"wrap" }}>
+              {[["metas","📊 Metas del PDM (" + metasData.metas.length + ")"],["discurso","🧭 Del discurso al plan (" + trazabilidad.compromisos.length + ")"]].map(([v,l]) => (
+                <button key={v} className="chip" onClick={() => setVistaM(v)}
+                  style={{ padding:"9px 18px", borderRadius:10, fontSize:13.5, fontWeight:800,
+                           border:`1.5px solid ${C.green}`,
+                           background: vistaM===v ? C.green : "transparent",
+                           color: vistaM===v ? "#fff" : C.green }}>{l}</button>
+              ))}
+            </div>
+
+            {vistaM === "discurso" && (
+              <div>
+                <div className="card" style={{ background:"#F4F6FB", border:`1.5px solid ${C.verify}`,
+                                               borderRadius:10, padding:"12px 15px", margin:"0 0 16px",
+                                               fontSize:12.5, lineHeight:1.6, color:C.inkSoft }}>
+                  ⚖️ {trazabilidad.nota}
+                </div>
+                {(() => {
+                  const grupos = {};
+                  for (const c of trazabilidad.compromisos) (grupos[c.eje] = grupos[c.eje] || []).push(c);
+                  const EST = {
+                    "institucionalizado": { l:"✓ Institucionalizado", bg:"#E9F7F1", bd:C.done, tx:C.green },
+                    "parcial":            { l:"◐ Parcial",            bg:"#FFF8E8", bd:C.progress, tx:"#9A7115" },
+                    "sin-meta":           { l:"⚠ Sin meta asociada",  bg:"#FDF0EE", bd:C.stalled, tx:C.stalled },
+                  };
+                  return Object.entries(grupos).map(([eje, items]) => (
+                    <div key={eje} style={{ marginBottom:18 }}>
+                      <div className="disp" style={{ fontSize:14.5, fontWeight:800, marginBottom:8, color:C.inkSoft,
+                                                     textTransform:"uppercase", letterSpacing:0.8 }}>{eje}</div>
+                      <div style={{ display:"grid", gap:8 }}>
+                        {items.map((c,i) => {
+                          const e = EST[c.estado];
+                          return (
+                            <div key={i} className="card" style={{ background:C.card, border:`1px solid ${C.line}`,
+                                                                    borderLeft:`5px solid ${e.bd}`,
+                                                                    borderRadius:10, padding:"12px 16px" }}>
+                              <div style={{ display:"flex", flexWrap:"wrap", justifyContent:"space-between", gap:8, alignItems:"flex-start" }}>
+                                <div style={{ flex:"1 1 300px", fontSize:13.5, fontWeight:600, lineHeight:1.45 }}>{c.texto}</div>
+                                <span style={{ fontSize:11, fontWeight:800, padding:"3px 11px", borderRadius:999,
+                                               background:e.bg, border:`1px solid ${e.bd}`, color:e.tx, whiteSpace:"nowrap" }}>
+                                  {e.l}
+                                </span>
+                              </div>
+                              <div style={{ marginTop:6, fontSize:12, color:C.inkSoft, lineHeight:1.5 }}>
+                                {c.metas.length > 0 && (
+                                  <span style={{ marginRight:8 }}>
+                                    {c.metas.map(m => (
+                                      <span key={m} style={{ fontFamily:"monospace", fontSize:10.5, fontWeight:700,
+                                                             padding:"2px 8px", borderRadius:5, background:C.ink,
+                                                             color:"#fff", marginRight:4 }}>{m}</span>
+                                    ))}
+                                  </span>
+                                )}
+                                {c.nota}
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  ));
+                })()}
+                <div style={{ fontSize:11.5, color:C.inkSoft, fontStyle:"italic" }}>
+                  📄 Fuentes: {trazabilidad.fuente_pg} · {trazabilidad.fuente_pdm}
+                </div>
+              </div>
+            )}
+
+            {vistaM === "metas" && (<>
             <div style={{ display:"flex", flexWrap:"wrap", gap:8, margin:"14px 0 18px" }}>
               {["todas","cumplida","progreso","sin-verificar","estancada","sin-iniciar"].map(f => (
                 <button key={f} className="chip" onClick={() => setFiltroMeta(f)}
@@ -524,6 +595,7 @@ export default function App() {
               })}
             </div>
             <div style={{ marginTop:14, fontSize:12, color:C.inkSoft }}>Fuente: {metasData.fuente}</div>
+            </>)}
           </div>
         )}
 
