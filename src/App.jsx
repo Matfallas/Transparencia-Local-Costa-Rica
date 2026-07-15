@@ -76,6 +76,7 @@ export default function App() {
   const [temaF, setTemaF]           = useState("todos");
   const [maxSesiones, setMaxSesiones] = useState(12);
   const [cargoA, setCargoA]         = useState("Regiduría propietaria");
+  const [vistaM, setVistaM]         = useState("metas");
   const [heroOk, setHeroOk]         = useState(true);
 
   const metas = metasData.metas;
