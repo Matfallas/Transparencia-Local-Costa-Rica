@@ -1,38 +1,120 @@
 {
-  "estado": "activo",
-  "anio": 2025,
-  "fuente": "Informe de Liquidación Presupuestaria 2025 — Alexander Segura Quesada, Encargado de Presupuesto, Municipalidad de Desamparados",
-  "nota_aprobacion": "Presupuesto inicial aprobado por la CGR mediante oficio N°DFOE-LOC-1911 del 18 dic 2024",
-  "total": 14300.8,
-  "total_definitivo": 18913.8,
-  "ingresos_reales": 19071.9,
-  "ejecucion": 88,
-  "superavit": 4082.2,
   "fuenteOficial": "https://transparencia.desamparados.go.cr/rendicion-de-cuentas/presupuesto",
-  "detalle": [
+  "anios": [
     {
-      "rubro": "Prog. I: Dirección y Adm. General",
-      "monto": 4151.6,
-      "ejecucion_pct": 95,
-      "nota": "Gastos administrativos, auditoría interna, transferencias a juntas de educación"
+      "anio": 2026,
+      "estado": "alerta",
+      "titulo": "Presupuesto 2026: archivado por la CGR",
+      "alerta": "La Contraloría General de la República archivó SIN TRÁMITE el presupuesto inicial 2026 (₡15.445,68 millones) mediante el oficio DFOE-LOC-2041-2025: el Concejo aprobó el dictamen de la Comisión de Hacienda en lugar de aprobar expresamente el presupuesto, dejándolo sin validez jurídica. Consecuencia: durante 2026 rige el presupuesto definitivo del 2025 ajustado. En febrero 2026 el Concejo aprobó el Presupuesto Extraordinario 01-2026 por ₡4.672,46 millones.",
+      "total": 15445.7,
+      "total_nota": "monto del presupuesto inicial archivado",
+      "extraordinario": 4672.5,
+      "fuente": "Oficio DFOE-LOC-2041(21504)-2025 de la CGR; Consolidado General de Egresos PO 2026; Acuerdos Sesión 21-2026",
+      "detalle": [
+        {
+          "rubro": "Remuneraciones",
+          "monto": 7794.4
+        },
+        {
+          "rubro": "Servicios",
+          "monto": 4192.6
+        },
+        {
+          "rubro": "Bienes duraderos",
+          "monto": 1265.1
+        },
+        {
+          "rubro": "Transferencias corrientes",
+          "monto": 1051.3
+        },
+        {
+          "rubro": "Materiales y suministros",
+          "monto": 757.0
+        },
+        {
+          "rubro": "Cuentas especiales",
+          "monto": 200.0
+        },
+        {
+          "rubro": "Deuda (intereses + amortización)",
+          "monto": 185.3
+        }
+      ],
+      "detalle_nota": "Distribución por partida del presupuesto inicial 2026 tal como fue formulado (archivado por la CGR)",
+      "hitos": [
+        "El PO 2026 formulado destinaba 50% a remuneraciones y 27% a servicios",
+        "La CGR aclaró que el archivo NO es una improbación: el error fue de procedimiento interno del Concejo",
+        "El presupuesto ajustado 2026 se remite a la CGR solo para efectos informativos",
+        "Presupuesto Extraordinario 01-2026 aprobado en Sesión 21 (9 feb 2026): ₡4.672,46 millones"
+      ]
     },
     {
-      "rubro": "Prog. II: Servicios Comunales",
-      "monto": 8006.1,
-      "ejecucion_pct": 87,
-      "nota": "Recolección de residuos, mantenimiento vial, programas sociales, culturales y seguridad"
+      "anio": 2025,
+      "estado": "activo",
+      "titulo": "Liquidación Presupuestaria 2025",
+      "fuente": "Informe de Liquidación Presupuestaria 2025 — Encargado de Presupuesto, Municipalidad de Desamparados. PO aprobado por CGR: oficio DFOE-LOC-1911 (18 dic 2024)",
+      "total": 14300.8,
+      "total_definitivo": 18913.8,
+      "ingresos_reales": 19071.9,
+      "ejecucion": 88,
+      "superavit": 4082.2,
+      "detalle": [
+        {
+          "rubro": "Prog. I: Administración General",
+          "monto": 4151.6,
+          "ejecucion_pct": 95
+        },
+        {
+          "rubro": "Prog. II: Servicios Comunales",
+          "monto": 8006.1,
+          "ejecucion_pct": 87
+        },
+        {
+          "rubro": "Prog. III: Inversiones",
+          "monto": 2103.5,
+          "ejecucion_pct": 71
+        }
+      ],
+      "detalle_nota": "Montos iniciales por programa presupuestario y su porcentaje de ejecución",
+      "hitos": [
+        "Ingresos reales: ₡19.071,9 M — 109% de lo presupuestado",
+        "Patentes Municipales: ₡3.699,5 M recaudados (97% de lo proyectado)",
+        "Vías de comunicación terrestre: ₡1.457,4 M comprometidos (90% de ejecución)",
+        "Superávit al 31 dic 2025: ₡4.082,2 M"
+      ]
     },
     {
-      "rubro": "Prog. III: Inversiones",
-      "monto": 2103.5,
-      "ejecucion_pct": 71,
-      "nota": "Infraestructura vial (Ley 8114), obras comunales, proyectos de desarrollo cantonal"
+      "anio": 2024,
+      "estado": "activo",
+      "titulo": "Liquidación Presupuestaria 2024",
+      "fuente": "Informe de Liquidación Presupuestaria 2024 — Municipalidad de Desamparados. PO aprobado por CGR: oficio DFOE-LOC-2467 (19 dic 2023)",
+      "ingresos_reales": 18166.6,
+      "ejecucion": 87,
+      "egresos_reales": 14155.0,
+      "superavit": 3973.2,
+      "superavit_nota": "superávit libre: ₡1.827,7 M (46% del total)",
+      "detalle": [
+        {
+          "rubro": "Prog. I: Administración General",
+          "ejecucion_pct": 95
+        },
+        {
+          "rubro": "Prog. II: Servicios Comunales",
+          "ejecucion_pct": 90
+        },
+        {
+          "rubro": "Prog. III: Inversiones",
+          "ejecucion_pct": 63
+        }
+      ],
+      "detalle_nota": "Porcentaje de ejecución por programa presupuestario",
+      "hitos": [
+        "Ingresos reales: ₡18.166,6 M — 112% de lo presupuestado",
+        "Egresos ejecutados: ₡14.155,0 M (87% de lo programado)",
+        "Se tramitaron 1 presupuesto extraordinario y 9 modificaciones (₡1.603,4 M)",
+        "Vías de comunicación terrestre: ₡849,2 M ejecutados/comprometidos (52% de la subpartida)",
+        "El programa de Inversiones fue el de menor ejecución: 63%"
+      ]
     }
-  ],
-  "hitos": [
-    "Patentes Municipales: ₡3.699,5 M recaudados (97% de lo proyectado)",
-    "Vías de comunicación terrestre: ₡1.457,4 M comprometidos (90% de ejecución por subpartida)",
-    "Equipo de transporte: ₡153,8 M comprometidos para renovación de flotilla municipal",
-    "Superávit total al 31 dic 2025: ₡4.082,2 M (libre + específico por transferencias de ley + fondos de servicios)"
   ]
 }

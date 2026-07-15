@@ -1,79 +1,216 @@
 {
-  "nota": "Votaciones reales extraídas de los archivos de acuerdos del Concejo Municipal (sesiones 2024–2026), descargados del portal transparencia.desamparados.go.cr",
+  "nota": "Selección curada de acuerdos con relevancia ciudadana, extraída del análisis de los archivos oficiales de acuerdos del Concejo Municipal 2024–2026 descargados del portal de transparencia.",
+  "stats": {
+    "acuerdos_analizados": 902,
+    "por_anio": {
+      "2024": 179,
+      "2025": 449,
+      "2026": 274
+    },
+    "sesiones_por_anio": {
+      "2024": 50,
+      "2025": 45,
+      "2026": 30
+    },
+    "temas_principales": [
+      {
+        "tema": "Ambiente",
+        "n": 132
+      },
+      {
+        "tema": "Vialidad y obras",
+        "n": 88
+      },
+      {
+        "tema": "Presupuesto",
+        "n": 77
+      },
+      {
+        "tema": "Social e inclusión",
+        "n": 66
+      },
+      {
+        "tema": "Contratación",
+        "n": 37
+      },
+      {
+        "tema": "Seguridad",
+        "n": 35
+      }
+    ]
+  },
   "votaciones": [
     {
       "fecha": "1 may 2026",
-      "sesion": "Solemne 2026",
-      "titulo": "Elección del directorio del Concejo Municipal 2026–2028",
+      "anio": 2026,
+      "sesion": "Solemne",
+      "titulo": "Elección del directorio del Concejo 2026–2028: la alianza FA-PLN",
       "resultado": "Aprobado",
       "area": "Político",
-      "detalle": "Eduardo Guillén Gardela (Frente Amplio) electo Presidente y Karla Mora Rodríguez (PLN) Vicepresidenta. El FA rompió el bloque opositor y se alió con el PLN, revertiendo el control del Concejo que la oposición había ganado en 2024.",
-      "fuente": "Sesión solemne 01 mayo 2026; cobertura de El Mundo CR"
+      "detalle": "Eduardo Guillén Gardela (Frente Amplio) electo Presidente y Karla Mora Rodríguez (PLN) Vicepresidenta. El FA rompió el bloque opositor y se alió con el PLN, revirtiendo el control que la oposición había ganado en 2024.",
+      "fuente": "Sesión solemne 1 may 2026; cobertura de El Mundo CR"
     },
     {
-      "fecha": "5 ene 2026",
-      "sesion": "01-2026",
-      "titulo": "Videovigilancia en 13 edificios municipales: adjudicación a $7.275/mes",
+      "fecha": "9 feb 2026",
+      "anio": 2026,
+      "sesion": "21-2026",
+      "titulo": "Presupuesto Extraordinario 01-2026: ₡4.672,46 millones",
       "resultado": "Aprobado",
-      "area": "Seguridad",
-      "detalle": "Se adjudicó la Licitación Menor 2025LE-000002 para alquiler de videovigilancia perimetral en 13 edificios: Museo de la Carreta, Villa Olímpica, Centro Cívico por la Paz, Complejo Ecológico, 3 CECUDIs, 2 cementerios, Taller Mecánico, Palacio Municipal y Parque Centenario. Plazo: 1 año prorrogable.",
-      "fuente": "Acuerdo N.° 01, Sesión 01-2026, oficio CM-SM-01-01-2026"
-    },
-    {
-      "fecha": "ene 2026",
-      "sesion": "02-2026",
-      "titulo": "Reglamento de Comercio al Aire Libre — aprobado para consulta al MEIC",
-      "resultado": "Aprobado",
-      "area": "Economía local",
-      "detalle": "El Concejo aprobó el Dictamen 15-2025 que regula el comercio informal en espacios públicos del cantón y lo envió en consulta obligatoria al Ministerio de Economía, Industria y Comercio antes de su promulgación definitiva.",
-      "fuente": "Sesión 02-2026, Dictamen 15-2025"
-    },
-    {
-      "fecha": "ene 2026",
-      "sesion": "02-2026",
-      "titulo": "Reglamento de Cobro Administrativo, Extrajudicial y Judicial — aprobado para consulta",
-      "resultado": "Aprobado",
-      "area": "Institucional",
-      "detalle": "Se aprobó el Dictamen 14-2025 que moderniza el proceso de cobro de deudas municipales. También fue enviado al MEIC en consulta obligatoria. Ambos reglamentos buscan mejorar la recaudación y reducir la morosidad cantonal.",
-      "fuente": "Sesión 02-2026, Dictamen 14-2025"
-    },
-    {
-      "fecha": "ene 2026",
-      "sesion": "04-2026",
-      "titulo": "Voto de apoyo al Protocolo Antártico sobre protección del medio ambiente",
-      "resultado": "Aprobado",
-      "area": "Ambiente",
-      "detalle": "El Concejo aprobó un voto de apoyo al proyecto de ley de adhesión de Costa Rica al Protocolo al Tratado Antártico. Aunque es una posición simbólica del gobierno local, alinea al municipio con la agenda ambiental internacional.",
-      "fuente": "Sesión 04-2026"
+      "area": "Presupuesto",
+      "detalle": "Tras el archivo del presupuesto ordinario 2026 por parte de la CGR, el Concejo aprobó el Presupuesto Extraordinario 01-2026 con su Plan Anual Operativo e Informe Plurianual, por ₡4.672.459.904,88.",
+      "fuente": "Acuerdos de la Sesión 21-2026 (oficio CM-SM)"
     },
     {
       "fecha": "feb 2026",
+      "anio": 2026,
+      "sesion": "23-2026",
+      "titulo": "Dictamen 01-2026 de la Comisión de Plan Regulador",
+      "resultado": "Aprobado",
+      "area": "Territorio",
+      "detalle": "El Concejo aprobó el dictamen de su Comisión de Plan Regulador y convocó sesiones extraordinarias para conocer los avances de la actualización — un tema que arrastra años de atraso y que definirá el uso del suelo en el cantón (meta ME21 del PDM).",
+      "fuente": "Acuerdos de las Sesiones 7-2026 y 23-2026"
+    },
+    {
+      "fecha": "feb 2026",
+      "anio": 2026,
       "sesion": "06-2026",
-      "titulo": "Improbada: moción para publicar el Plan de Adquisiciones institucional",
+      "titulo": "Improbada: moción para publicar el Plan de Adquisiciones",
       "resultado": "Rechazado",
       "area": "Transparencia",
-      "detalle": "El Concejo improbó la moción del Regidor Ricardo Arce Díaz (PPSD) que proponía obligar a la Municipalidad a publicar su Plan de Adquisiciones y establecer lineamientos de planificación de compras. Primera moción de transparencia rechazada en 2026.",
-      "fuente": "Sesión 06-2026"
+      "detalle": "El Concejo improbó la moción del Reg. Ricardo Arce (PPSD) que proponía publicar el Plan de Adquisiciones institucional y establecer lineamientos de planificación de compras. Primera moción de transparencia rechazada en 2026.",
+      "fuente": "Acuerdos de la Sesión 06-2026"
+    },
+    {
+      "fecha": "ene 2026",
+      "anio": 2026,
+      "sesion": "05-2026",
+      "titulo": "Reglamento de Comercio al Aire Libre",
+      "resultado": "Aprobado",
+      "area": "Economía local",
+      "detalle": "Se aprobó el Dictamen 15-2025 con el reglamento que regula el comercio informal en espacios públicos del cantón, enviado en consulta al MEIC como paso previo a su vigencia.",
+      "fuente": "Acuerdos de la Sesión 05-2026, Dictamen 15-2025"
+    },
+    {
+      "fecha": "5 ene 2026",
+      "anio": 2026,
+      "sesion": "01-2026",
+      "titulo": "Videovigilancia en 13 edificios municipales: $7.275/mes",
+      "resultado": "Aprobado",
+      "area": "Seguridad",
+      "detalle": "Adjudicación de la Licitación Menor 2025LE-000002 para vigilancia perimetral de 13 edificios: Museo de la Carreta, Villa Olímpica, CECUDIs, cementerios, Palacio Municipal y Parque Centenario, entre otros. Plazo de 1 año prorrogable.",
+      "fuente": "Acuerdo N.° 01, Sesión 01-2026"
+    },
+    {
+      "fecha": "dic 2025",
+      "anio": 2025,
+      "sesion": "80-2025",
+      "titulo": "Reglamento de la Auditoría Interna municipal",
+      "resultado": "Aprobado",
+      "area": "Transparencia",
+      "detalle": "El Concejo aprobó, adoptó y ordenó publicar el Reglamento de Organización y Funcionamiento de la Auditoría Interna — la unidad que fiscaliza el uso de los recursos municipales desde adentro.",
+      "fuente": "Acuerdos de la Sesión 80-2025"
+    },
+    {
+      "fecha": "set 2025",
+      "anio": 2025,
+      "sesion": "56-2025",
+      "titulo": "Más plazas para Policía Municipal y Cobranzas en el presupuesto 2026",
+      "resultado": "Aprobado",
+      "area": "Seguridad",
+      "detalle": "Moción para instruir la incorporación de nuevas plazas de Policía Municipal y del área de Cobranzas en el proyecto de presupuesto ordinario 2026 — conectada con la meta ME35 del PDM sobre fortalecimiento policial.",
+      "fuente": "Acuerdos de la Sesión 56-2025 (moción no. 2288)"
+    },
+    {
+      "fecha": "set 2025",
+      "anio": 2025,
+      "sesion": "58-2025",
+      "titulo": "Fortalecimiento de la seguridad en Frailes, El Rosario y San Cristóbal",
+      "resultado": "Aprobado",
+      "area": "Seguridad",
+      "detalle": "Moción de apoyo al fortalecimiento de la seguridad en los tres distritos rurales del sur del cantón, con coordinación ante el Ministerio de Gobernación y el TSE.",
+      "fuente": "Acuerdos de la Sesión 58-2025"
+    },
+    {
+      "fecha": "5 may 2025",
+      "anio": 2025,
+      "sesion": "71-2025",
+      "titulo": "Tarifas por uso de la cancha de voleibol de playa de la Villa Olímpica",
+      "resultado": "Aprobado",
+      "area": "Cultura y deporte",
+      "detalle": "Se autorizó al Comité Cantonal de Deportes y Recreación el cobro de alquiler por el uso de la cancha de voleibol de playa de la Villa Olímpica José Figueres Ferrer.",
+      "fuente": "Acuerdos de la Sesión 71-2025 (moción no. 2894)"
+    },
+    {
+      "fecha": "2025",
+      "anio": 2025,
+      "sesion": "33-2025",
+      "titulo": "Rechazo de renovación de becas municipales",
+      "resultado": "Aprobado",
+      "area": "Social e inclusión",
+      "detalle": "El Concejo rechazó la renovación de un grupo de becas estudiantiles; las personas afectadas tuvieron 15 días hábiles para apelar según el reglamento. Las becas municipales son uno de los programas sociales más sensibles del cantón.",
+      "fuente": "Acuerdos de la Sesión 33-2025 (nota no. 1161)"
+    },
+    {
+      "fecha": "set-oct 2025",
+      "anio": 2025,
+      "sesion": "Comisión Hacienda 09-2025",
+      "titulo": "El error que costó el presupuesto 2026",
+      "resultado": "Aprobado",
+      "area": "Presupuesto",
+      "detalle": "El Concejo aprobó el dictamen 09-2025 de la Comisión de Hacienda que 'recomendaba aprobar' el presupuesto ordinario 2026 — pero nunca tomó el acuerdo expreso de aprobación del presupuesto mismo. Ese vacío llevó a la CGR a archivarlo sin trámite: en 2026 rige el presupuesto del 2025.",
+      "fuente": "Oficio DFOE-LOC-2041(21504)-2025 de la CGR, que cita el Acuerdo no. 18 del dictamen"
+    },
+    {
+      "fecha": "18 nov 2024",
+      "anio": 2024,
+      "sesion": "73-2024",
+      "titulo": "Fiscalización: informes a la adjudicataria de licitación",
+      "resultado": "Aprobado",
+      "area": "Transparencia",
+      "detalle": "Moción de la fracción del Frente Amplio (regidores Gardela y Raitt) para exigir informes a la empresa adjudicataria de una licitación municipal — ejemplo del rol fiscalizador de las fracciones minoritarias.",
+      "fuente": "Acuerdos de la Sesión 73-2024 (moción FP-PFA-023-2024)"
+    },
+    {
+      "fecha": "28 oct 2024",
+      "anio": 2024,
+      "sesion": "68-2024",
+      "titulo": "Hacia un reglamento para declarar calles públicas",
+      "resultado": "Aprobado",
+      "area": "Vialidad y obras",
+      "detalle": "Moción del Reg. Ricardo Arce (con enmienda de la Reg. Karla Mora) para crear el Reglamento de declaratoria de calles públicas en la red vial cantonal — clave para barrios cuyas calles no reciben mantenimiento por no estar declaradas.",
+      "fuente": "Acuerdos de la Sesión 68-2024 (moción no. 1717)"
     },
     {
       "fecha": "24 set 2024",
+      "anio": 2024,
       "sesion": "60-2024",
       "titulo": "Aprobación del Plan de Desarrollo Municipal 2024–2028",
       "resultado": "Aprobado",
       "area": "Planificación",
-      "detalle": "Acuerdo N.° 6 que aprueba las metas estratégicas en 5 ejes: Fortalecimiento Institucional, Salubridad Pública, Ordenamiento Territorial, Socioeconómico, y Deporte/Cultura/Recreación. Es el documento rector que CívicosCR rastrea en la pestaña de Metas.",
-      "fuente": "Plan de Desarrollo Municipal 2024–2028, Acuerdo N.° 6"
+      "detalle": "Acuerdo N.° 6 que aprueba el plan institucional con las metas estratégicas en 5 ejes. Es el documento rector que CívicosCR rastrea en la pestaña de Metas.",
+      "fuente": "PDM 2024–2028, Acuerdo N.° 6, Sesión 60-2024"
+    },
+    {
+      "fecha": "2 ene 2024",
+      "anio": 2024,
+      "sesion": "1-2024",
+      "titulo": "Posicionamiento urgente ante la ola de criminalidad",
+      "resultado": "Aprobado",
+      "area": "Seguridad",
+      "detalle": "Primer acuerdo del año: moción conjunta de la Alcaldía y el Concejo dirigida al Presidente de la República, el Ministro de Seguridad y el OIJ, exigiendo atención urgente a la crisis de seguridad que golpeó al cantón en 2023.",
+      "fuente": "Acuerdo no. 1, Sesión 1-2024 (oficio CM-SC-001-1-2024)"
     },
     {
       "fecha": "1 may 2024",
-      "sesion": "Solemne 2024",
-      "titulo": "Primera vez en la historia: la oposición controla el Concejo de Desamparados",
+      "anio": 2024,
+      "sesion": "Solemne",
+      "titulo": "Primera vez en la historia: la oposición controla el Concejo",
       "resultado": "Aprobado",
       "favor": 6,
       "contra": 4,
       "ausente": 1,
       "area": "Político",
-      "detalle": "María Isabel Llamas (PUSC) electa presidenta y Luis Flores (PNP) vicepresidente. Votaron a favor: 2 PUSC, 1 PPSD, 1 PNP, 1 PNR, 1 FA. En contra: 3 PLN + 1 PLP. Ausencia por salud: 1 PECC. Hito histórico: el PLN siempre había controlado el Concejo en Desamparados, donde el partido fue fundado en la finca La Lucha.",
+      "detalle": "María Isabel Llamas (PUSC) electa presidenta y Luis Flores (PNP) vicepresidente con el bloque opositor. En contra: 3 PLN + 1 PLP. El PLN nunca había perdido el control del Concejo en Desamparados — el cantón donde nació el partido, en la finca La Lucha.",
       "fuente": "Acta de la sesión solemne del 1 de mayo de 2024"
     }
   ]

@@ -1,0 +1,30 @@
+{
+  "nombre": "Desamparados",
+  "apodo": "Desampa",
+  "gentilicio": "desamparadeño(a)",
+  "lema": "Un cantón universal y próspero con un desarrollo equilibrado e integrado",
+  "datos": [
+    { "icono": "📅", "titulo": "1862", "texto": "Año de creación del cantón mediante el Decreto 22 — es el cantón número 3 de San José y uno de los más antiguos del país." },
+    { "icono": "🗺️", "titulo": "13 distritos", "texto": "Combina lo urbano (Desamparados centro, San Miguel, Los Guido) con lo rural (Frailes, El Rosario, San Cristóbal), con microclimas diversos." },
+    { "icono": "👥", "titulo": "+240 mil habitantes", "texto": "Uno de los cantones más poblados de Costa Rica: una ciudad dentro del Gran Área Metropolitana con identidad propia." },
+    { "icono": "☕", "titulo": "Café de altura", "texto": "Los distritos del sur, como Frailes, producen café de alta calidad gracias a su clima de montaña." }
+  ],
+  "historia": [
+    { "anio": "1821", "evento": "Los vecinos del paraje 'Dos Cercas' inician la vida comunitaria que dará origen al futuro cantón." },
+    { "anio": "1862", "evento": "Se crea oficialmente el cantón de Desamparados mediante el Decreto 22." },
+    { "anio": "1877", "evento": "Primera sesión del Concejo Municipal (1° de enero), presidida por Mariano Monge Guillén — la llamaron 'la Municipalidad de los Monges' porque casi todos sus integrantes llevaban ese apellido." },
+    { "anio": "1949", "evento": "Se construye la Iglesia de El Rosario, declarada patrimonio arquitectónico-histórico de Costa Rica en el año 2000." },
+    { "anio": "S. XX", "evento": "La Iglesia de Desamparados, frente al Parque Centenario, se levanta con un diseño inspirado en la Catedral de San Pablo de Londres." },
+    { "anio": "2024", "evento": "Hito democrático: por primera vez en la historia del cantón, un bloque opositor gana el control del Concejo Municipal." },
+    { "anio": "2026", "evento": "Nace CívicosCR: la primera plataforma ciudadana de transparencia municipal del cantón." }
+  ],
+  "fotos": [
+    { "archivo": "hero.jpg",    "alt": "Panorámica de Desamparados" },
+    { "archivo": "iglesia.jpg", "alt": "Iglesia de Desamparados, frente al Parque Centenario" },
+    { "archivo": "parque.jpg",  "alt": "Parque Centenario" },
+    { "archivo": "rosario.jpg", "alt": "Iglesia de El Rosario, patrimonio nacional" },
+    { "archivo": "frailes.jpg", "alt": "Cafetales de Frailes" },
+    { "archivo": "canton.jpg",  "alt": "Vida cotidiana en el cantón" }
+  ],
+  "fuente": "Sitio oficial de la Municipalidad de Desamparados (sección El Cantón · Datos Generales)"
+}

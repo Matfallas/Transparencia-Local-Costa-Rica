@@ -1,0 +1,24 @@
+CARPETA DE FOTOS DE CÍVICOSCR
+==============================
+
+Colocá aquí tus fotografías del cantón con EXACTAMENTE estos nombres
+(en minúscula, formato .jpg):
+
+  hero.jpg     → Foto panorámica principal (aparece de fondo en el encabezado)
+  iglesia.jpg  → Iglesia de Desamparados / Parque Centenario
+  parque.jpg   → Parque Centenario
+  rosario.jpg  → Iglesia de El Rosario (patrimonio nacional)
+  frailes.jpg  → Cafetales o paisajes de Frailes
+  canton.jpg   → Vida cotidiana del cantón
+
+Recomendaciones:
+- Usá fotos PROPIAS o con licencia libre (Wikimedia Commons, Unsplash).
+  Al ser una plataforma de transparencia, el respeto al derecho de autor
+  es parte de la credibilidad.
+- Tamaño ideal: 1200-1600 px de ancho, menos de 500 KB cada una
+  (podés comprimirlas gratis en squoosh.app).
+- Si una foto no existe, el sitio simplemente no la muestra (no se rompe).
+
+Para subirlas a GitHub: entrá a la carpeta public/img del repositorio
+→ Add file → Upload files → arrastrá las fotos → Commit changes.
+El sitio se actualiza solo en ~1 minuto.

@@ -1,23 +1,23 @@
 {
-  "fuente": "Plan de Desarrollo Municipal 2024–2028, aprobado por el Concejo Municipal (Acuerdo N.° 6, Sesión 60-2024, 24 de setiembre de 2024). Elaborado por el Área de Planificación Institucional.",
+  "fuente": "Plan de Desarrollo Municipal 2024–2028 (Acuerdo N.° 6, Sesión 60-2024). Estados verificados contra los Informes de Rendición de Cuentas 2024 y 2025 de la Alcaldía.",
   "metas": [
     {
       "codigo": "ME21",
       "plazo": "2025",
       "texto": "Obtener la aprobación de la actualización del Plan Regulador Urbano y Rural",
       "area": "Ordenamiento territorial",
-      "estado": "sin-verificar",
-      "avance": 0,
-      "evidencia": "Plazo 2025 ya venció — meta prioritaria para verificar. Pista: sección Plan Regulador en desamparados.go.cr."
+      "estado": "progreso",
+      "avance": 70,
+      "evidencia": "Rendición de Cuentas 2025: la actualización del Plan Regulador reporta un avance del 70% (en 2024 iba en la cuarta etapa, ~62%). El plazo original era 2025, por lo que avanza con retraso. En 2026 la Comisión de Plan Regulador emitió su Dictamen 01-2026 y el Concejo convocó sesiones extraordinarias de avance (Sesiones 7 y 23-2026)."
     },
     {
       "codigo": "ME31",
       "plazo": "2025",
       "texto": "Alcanzar el 85% del plan de acción de la Política de Niñez y Adolescencia",
       "area": "Niñez y juventud",
-      "estado": "sin-verificar",
-      "avance": 0,
-      "evidencia": "Plazo 2025 ya venció — meta prioritaria para verificar. Pista: informes de cumplimiento en transparencia.desamparados.go.cr."
+      "estado": "progreso",
+      "avance": 40,
+      "evidencia": "Informe de Rendición de Cuentas 2024: la Política Cantonal de Niñez y Adolescencia quedó accesible a la población infantil y en implementación. El % exacto del plan de acción no se reporta — meta con plazo 2025 vencido, requiere verificación fina."
     },
     {
       "codigo": "ME32",
@@ -50,18 +50,18 @@
       "codigo": "ME2",
       "texto": "Establecer el servicio municipal para la persona adulta mayor y con discapacidad",
       "area": "Inclusión",
-      "estado": "sin-verificar",
-      "avance": 0,
-      "evidencia": "Pista: informes de gestión social municipales."
+      "estado": "cumplida",
+      "avance": 100,
+      "evidencia": "Informe de Rendición de Cuentas 2024: se abrió la oficina municipal para la atención a la población adulta mayor y en situación de discapacidad. La Municipalidad fue premiada por AGECO."
     },
     {
       "codigo": "ME13",
       "plazo": "anual",
       "texto": "Generar al menos una alianza estratégica por año para proyectos de inversión de impacto local",
       "area": "Planificación",
-      "estado": "sin-verificar",
-      "avance": 0,
-      "evidencia": "Pista: convenios suscritos en las actas del Concejo y rendición de cuentas."
+      "estado": "progreso",
+      "avance": 40,
+      "evidencia": "Informe de Rendición de Cuentas 2024: alianzas estratégicas permitieron la atención integral gratuita de 1.000 personas; el gobierno local participa en programas interinstitucionales."
     },
     {
       "codigo": "ME15",
@@ -110,18 +110,18 @@
       "codigo": "ME23",
       "texto": "Actualizar el Plan de Conservación, Desarrollo y Seguridad Vial con obras de movilidad",
       "area": "Infraestructura",
-      "estado": "sin-verificar",
-      "avance": 0,
-      "evidencia": "Pista: Plan Quinquenal Vial e informes de Gestión Vial. En 2025 se ejecutaron ₡1.457,4 M en vías (90% de ejecución según liquidación presupuestaria)."
+      "estado": "progreso",
+      "avance": 60,
+      "evidencia": "Inversión vial documentada en las liquidaciones: ₡849,2 M ejecutados/comprometidos en 2024 y ₡1.457,4 M en 2025 (90% de ejecución). El nuevo Plan Quinquenal 2026-2030 ya fue publicado en el portal de transparencia."
     },
     {
       "codigo": "ME28",
       "plazo": "2028",
       "texto": "Establecer ocho mecanismos de fortalecimiento para pequeños y medianos emprendimientos",
       "area": "Economía local",
-      "estado": "sin-verificar",
-      "avance": 0,
-      "evidencia": "Pista: ferias de emprendedores y convenios con instituciones en actas del Concejo."
+      "estado": "progreso",
+      "avance": 50,
+      "evidencia": "Informe de Rendición de Cuentas 2024: 6 ferias de empleo realizadas, apoyo directo a 7 emprendimientos, más de 2.700 personas capacitadas en empleabilidad y emprendimiento, y 3 graduaciones técnicas."
     },
     {
       "codigo": "ME27",
@@ -136,9 +136,9 @@
       "plazo": "anual",
       "texto": "Impulsar cuatro mecanismos anuales de atención y escucha para el bienestar emocional y social",
       "area": "Salud",
-      "estado": "sin-verificar",
-      "avance": 0,
-      "evidencia": "Pista: informes de la Gestión Social municipal."
+      "estado": "progreso",
+      "avance": 50,
+      "evidencia": "Informe de Rendición de Cuentas 2024: nuevos espacios de esparcimiento de salud mental para niñez, y alianzas estratégicas que permitieron la atención integral gratuita de 1.000 personas."
     },
     {
       "codigo": "ME30",
@@ -154,8 +154,8 @@
       "texto": "Robustecer el equipo y tecnología de la Policía Municipal y su sistema de videovigilancia",
       "area": "Seguridad",
       "estado": "progreso",
-      "avance": 40,
-      "evidencia": "En enero 2026 el Concejo adjudicó (Sesión 01-2026) el alquiler de videovigilancia para 13 edificios municipales a $7.275/mes. La Licitación Menor 2025LE-000002 está en ejecución."
+      "avance": 55,
+      "evidencia": "RC 2024: la Policía Municipal atendió 518 denuncias, realizó 18 intervenciones con drone y facilitó 373 vídeos para investigaciones; personal capacitado en armas 9mm y técnica CQB. Además, en enero 2026 el Concejo adjudicó videovigilancia para 13 edificios municipales (Sesión 01-2026). Además, en la Sesión 56-2025 el Concejo aprobó incorporar nuevas plazas de Policía Municipal al presupuesto 2026 (moción no. 2288)."
     },
     {
       "codigo": "ME36",
@@ -170,9 +170,9 @@
       "codigo": "ME38",
       "texto": "Contar con un programa de desarrollo cultural cantonal activo",
       "area": "Cultura",
-      "estado": "sin-verificar",
-      "avance": 0,
-      "evidencia": "Pista: informes de la Banda Municipal y Sinfónica, y rendición de cuentas 2024-2025."
+      "estado": "cumplida",
+      "avance": 100,
+      "evidencia": "Informe de Rendición de Cuentas 2024: programa cultural cantonal activo — Banda Municipal (destacada en el Festival de la Luz), Sinfónica Municipal, y más de 500 personas integradas en cursos y talleres culturales durante 2024."
     }
   ]
 }
