@@ -7,6 +7,7 @@ import votacionesData from "./data/votaciones.json";
 import presupuesto from "./data/presupuesto.json";
 import canton from "./data/canton.json";
 import alertasData from "./data/alertas.json";
+import acuerdosData from "./data/acuerdos.json";
 
 const C = {
   ink: "#14213D", inkSoft: "#3D4B6B", paper: "#FAFBF7", card: "#FFFFFF",
@@ -19,7 +20,7 @@ const ESTADOS = {
   progreso:       { label: "En progreso",   color: C.progress },
   estancada:      { label: "Estancada",     color: C.stalled  },
   "sin-iniciar":  { label: "Sin iniciar",   color: C.none     },
-  "sin-verificar":{ label: "En verificación", color: C.verify   },
+  "sin-verificar":{ label: "Sin evidencia pública", color: C.verify   },
 };
 
 const PARTIDOS = concejo.partidos;
@@ -67,6 +68,10 @@ export default function App() {
   const [metaExpandida, setMetaExpandida] = useState(null);
   const [anioP, setAnioP]           = useState(presupuesto.anios[0].anio);
   const [anioV, setAnioV]           = useState("todos");
+  const [vistaV, setVistaV]         = useState("curada");
+  const [busqueda, setBusqueda]     = useState("");
+  const [temaF, setTemaF]           = useState("todos");
+  const [maxSesiones, setMaxSesiones] = useState(12);
   const [heroOk, setHeroOk]         = useState(true);
 
   const metas = metasData.metas;
@@ -372,8 +377,9 @@ export default function App() {
                 ))}
               </div>
               <div style={{ marginTop:10, fontSize:12.5, color:C.inkSoft, lineHeight:1.5 }}>
-                💪 Las metas "en verificación" son una <strong>invitación abierta</strong>: si tenés evidencia
-                de avance (una noticia, una foto, un informe), aportala y la verificamos juntos.
+                🔎 <strong>"Sin evidencia pública" también es un hallazgo:</strong> significa que en los 902 acuerdos,
+                actas y rendiciones de cuentas que analizamos (2024–2026) no encontramos rastro de avance.
+                Si la meta avanza, la Municipalidad puede demostrarlo — y si tenés evidencia, aportala.
               </div>
             </div>
 
@@ -557,13 +563,31 @@ export default function App() {
           const S = votacionesData.stats;
           const lista = anioV === "todos" ? votacionesData.votaciones
                         : votacionesData.votaciones.filter(v => v.anio === anioV);
+
+          // ── Archivo completo: filtrar y agrupar por sesión ──
+          const q = busqueda.trim().toLowerCase();
+          const filtrados = acuerdosData.acuerdos.filter(a =>
+            (anioV === "todos" || a.y === anioV) &&
+            (temaF === "todos" || a.t === temaF) &&
+            (!q || a.x.toLowerCase().includes(q))
+          );
+          const porSesion = [];
+          const idx = new Map();
+          for (const a of filtrados) {
+            const k = a.y + "-" + a.s;
+            if (!idx.has(k)) { idx.set(k, porSesion.length); porSesion.push({ y:a.y, s:a.s, f:a.f, items:[] }); }
+            porSesion[idx.get(k)].items.push(a);
+          }
+          const sesionesVisibles = porSesion.slice(0, maxSesiones);
+          const TEMAS_LISTA = ["todos", ...Array.from(new Set(acuerdosData.acuerdos.map(a => a.t))).sort()];
+
           return (
           <div className="fade">
             <Real texto={"ANÁLISIS DE " + S.acuerdos_analizados.toLocaleString("es-CR") + " ACUERDOS OFICIALES 2024–2026"} />
             <p style={{ fontSize:14.5, color:C.inkSoft, maxWidth:680, lineHeight:1.6, marginTop:4 }}>
-              CívicosCR analizó los archivos de acuerdos del Concejo Municipal publicados en el portal de
-              transparencia y seleccionó los de mayor relevancia ciudadana, traducidos a lenguaje claro
-              y siempre con su fuente.
+              CívicosCR analizó los archivos de acuerdos del Concejo publicados en el portal de transparencia.
+              Explorá la <strong>selección curada</strong> (lo más relevante, en lenguaje claro) o el{" "}
+              <strong>archivo completo</strong> sesión por sesión.
             </p>
 
             {/* Radiografía */}
@@ -577,23 +601,34 @@ export default function App() {
                   <div key={anio} style={{ textAlign:"center", padding:"10px 8px",
                                            background:C.paper, borderRadius:10, border:`1px solid ${C.line}` }}>
                     <div className="disp" style={{ fontSize:22, fontWeight:900 }}>{n}</div>
-                    <div style={{ fontSize:11.5, color:C.inkSoft }}>acuerdos analizados en {anio}</div>
+                    <div style={{ fontSize:11.5, color:C.inkSoft }}>acuerdos en {anio}</div>
                     <div style={{ fontSize:10.5, color:C.inkSoft }}>{S.sesiones_por_anio[anio]} sesiones</div>
                   </div>
                 ))}
               </div>
               <div style={{ marginTop:12, fontSize:12.5, color:C.inkSoft }}>
-                <strong style={{ color:C.ink }}>¿De qué habla el Concejo?</strong> Temas más frecuentes:{" "}
+                <strong style={{ color:C.ink }}>¿De qué habla el Concejo?</strong> Temas sustantivos más frecuentes:{" "}
                 {S.temas_principales.map((t,i) => (
                   <span key={t.tema}>{i>0 ? " · " : ""}{t.tema} ({t.n})</span>
                 ))}
               </div>
             </div>
 
-            {/* Filtro por año */}
-            <div style={{ display:"flex", gap:8, margin:"0 0 16px" }}>
+            {/* Toggle de vista */}
+            <div style={{ display:"flex", gap:8, margin:"0 0 14px", flexWrap:"wrap" }}>
+              {[["curada","⭐ Selección curada"],["archivo","📚 Archivo completo (" + acuerdosData.acuerdos.length.toLocaleString("es-CR") + ")"]].map(([v,l]) => (
+                <button key={v} className="chip" onClick={() => setVistaV(v)}
+                  style={{ padding:"9px 18px", borderRadius:10, fontSize:13.5, fontWeight:800,
+                           border:`1.5px solid ${C.green}`,
+                           background: vistaV===v ? C.green : "transparent",
+                           color: vistaV===v ? "#fff" : C.green }}>{l}</button>
+              ))}
+            </div>
+
+            {/* Filtro por año (común a ambas vistas) */}
+            <div style={{ display:"flex", gap:8, margin:"0 0 12px", flexWrap:"wrap" }}>
               {["todos", 2026, 2025, 2024].map(a => (
-                <button key={a} className="chip" onClick={() => setAnioV(a)}
+                <button key={a} className="chip" onClick={() => { setAnioV(a); setMaxSesiones(12); }}
                   style={{ padding:"6px 15px", borderRadius:999, fontSize:13, fontWeight:700,
                            border:`1.5px solid ${C.ink}`,
                            background: anioV===a ? C.ink : "transparent",
@@ -603,54 +638,134 @@ export default function App() {
               ))}
             </div>
 
-            <div style={{ display:"grid", gap:14 }}>
-              {lista.map((v,i) => {
-                const aprobado = v.resultado === "Aprobado";
-                const tieneVotos = typeof v.favor === "number";
-                return (
-                  <div key={i} className="card" style={{ background:C.card, border:`1px solid ${C.line}`,
-                                                          borderRadius:12, padding:"18px 20px" }}>
-                    <div style={{ display:"flex", flexWrap:"wrap", justifyContent:"space-between", gap:8 }}>
-                      <div style={{ display:"flex", gap:8, alignItems:"center", flexWrap:"wrap" }}>
-                        <span style={{ fontSize:12, fontWeight:600, color:C.inkSoft }}>{v.fecha}</span>
-                        {v.sesion && <span style={{ fontSize:11, padding:"2px 8px", borderRadius:6,
-                                                    background:C.paper, border:`1px solid ${C.line}`,
-                                                    color:C.inkSoft }}>Sesión {v.sesion}</span>}
-                        {v.area && <span style={{ fontSize:11, padding:"2px 8px", borderRadius:6,
-                                                   background:C.paper, border:`1px solid ${C.line}`,
-                                                   color:C.inkSoft }}>{v.area}</span>}
-                      </div>
-                      <span style={{ fontSize:11.5, fontWeight:800, padding:"3px 12px", borderRadius:999,
-                                     background: aprobado ? C.done : C.stalled, color:"#fff" }}>
-                        {v.resultado}
-                      </span>
-                    </div>
-                    <div className="disp" style={{ fontSize:16, fontWeight:700, margin:"8px 0 6px", lineHeight:1.35 }}>
-                      {v.titulo}
-                    </div>
-                    <div style={{ fontSize:13.5, color:C.inkSoft, lineHeight:1.5 }}>{v.detalle}</div>
-                    {tieneVotos && (
-                      <>
-                        <div style={{ display:"flex", height:10, borderRadius:999, overflow:"hidden", marginTop:12 }}>
-                          <div style={{ flex:v.favor, background:C.done }}/>
-                          <div style={{ flex:v.contra||0.001, background:C.stalled }}/>
-                          {v.ausente>0 && <div style={{ flex:v.ausente, background:C.none }}/>}
+            {/* ── VISTA CURADA ── */}
+            {vistaV === "curada" && (
+              <div style={{ display:"grid", gap:14 }}>
+                {lista.map((v,i) => {
+                  const aprobado = v.resultado === "Aprobado";
+                  const tieneVotos = typeof v.favor === "number";
+                  return (
+                    <div key={i} className="card" style={{ background:C.card, border:`1px solid ${C.line}`,
+                                                            borderRadius:12, padding:"18px 20px" }}>
+                      <div style={{ display:"flex", flexWrap:"wrap", justifyContent:"space-between", gap:8 }}>
+                        <div style={{ display:"flex", gap:8, alignItems:"center", flexWrap:"wrap" }}>
+                          <span style={{ fontSize:12, fontWeight:600, color:C.inkSoft }}>{v.fecha}</span>
+                          {v.sesion && <span style={{ fontSize:11, padding:"2px 8px", borderRadius:6,
+                                                      background:C.paper, border:`1px solid ${C.line}`,
+                                                      color:C.inkSoft }}>Sesión {v.sesion}</span>}
+                          {v.area && <span style={{ fontSize:11, padding:"2px 8px", borderRadius:6,
+                                                     background:C.paper, border:`1px solid ${C.line}`,
+                                                     color:C.inkSoft }}>{v.area}</span>}
                         </div>
-                        <div style={{ fontSize:12, color:C.inkSoft, marginTop:6 }}>
-                          ✅ {v.favor} a favor · ❌ {v.contra} en contra
-                          {v.ausente>0 ? ` · ⚪ ${v.ausente} ausencia` : ""}
-                        </div>
-                      </>
-                    )}
-                    {v.fuente && (
-                      <div style={{ fontSize:11.5, color:C.inkSoft, marginTop:8, fontStyle:"italic" }}>
-                        📄 {v.fuente}
+                        <span style={{ fontSize:11.5, fontWeight:800, padding:"3px 12px", borderRadius:999,
+                                       background: aprobado ? C.done : C.stalled, color:"#fff" }}>
+                          {v.resultado}
+                        </span>
                       </div>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
+                      <div className="disp" style={{ fontSize:16, fontWeight:700, margin:"8px 0 6px", lineHeight:1.35 }}>
+                        {v.titulo}
+                      </div>
+                      <div style={{ fontSize:13.5, color:C.inkSoft, lineHeight:1.5 }}>{v.detalle}</div>
+                      {tieneVotos && (
+                        <>
+                          <div style={{ display:"flex", height:10, borderRadius:999, overflow:"hidden", marginTop:12 }}>
+                            <div style={{ flex:v.favor, background:C.done }}/>
+                            <div style={{ flex:v.contra||0.001, background:C.stalled }}/>
+                            {v.ausente>0 && <div style={{ flex:v.ausente, background:C.none }}/>}
+                          </div>
+                          <div style={{ fontSize:12, color:C.inkSoft, marginTop:6 }}>
+                            ✅ {v.favor} a favor · ❌ {v.contra} en contra
+                            {v.ausente>0 ? ` · ⚪ ${v.ausente} ausencia` : ""}
+                          </div>
+                        </>
+                      )}
+                      {v.fuente && (
+                        <div style={{ fontSize:11.5, color:C.inkSoft, marginTop:8, fontStyle:"italic" }}>
+                          📄 {v.fuente}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+
+            {/* ── VISTA ARCHIVO COMPLETO ── */}
+            {vistaV === "archivo" && (
+              <div>
+                <div style={{ display:"flex", gap:10, flexWrap:"wrap", marginBottom:14 }}>
+                  <input value={busqueda}
+                         onChange={e => { setBusqueda(e.target.value); setMaxSesiones(12); }}
+                         placeholder="🔍 Buscar en los acuerdos (ej: ACAM, becas, Frailes, plan regulador...)"
+                         style={{ flex:"1 1 260px", padding:"10px 14px", borderRadius:10,
+                                  border:`1.5px solid ${C.line}`, fontSize:13.5,
+                                  fontFamily:"inherit", color:C.ink, background:C.card }}/>
+                  <select value={temaF}
+                          onChange={e => { setTemaF(e.target.value); setMaxSesiones(12); }}
+                          style={{ padding:"10px 14px", borderRadius:10, border:`1.5px solid ${C.line}`,
+                                   fontSize:13.5, fontWeight:600, color:C.ink, background:C.card }}>
+                    {TEMAS_LISTA.map(t => (
+                      <option key={t} value={t}>{t === "todos" ? "Todos los temas" : t}</option>
+                    ))}
+                  </select>
+                </div>
+
+                <div style={{ fontSize:12.5, color:C.inkSoft, marginBottom:12 }}>
+                  {filtrados.length.toLocaleString("es-CR")} acuerdos en {porSesion.length} sesiones
+                  {q && <> para "<strong>{busqueda}</strong>"</>}
+                </div>
+
+                <div style={{ display:"grid", gap:12 }}>
+                  {sesionesVisibles.map(ses => (
+                    <div key={ses.y + "-" + ses.s} className="card"
+                         style={{ background:C.card, border:`1px solid ${C.line}`,
+                                  borderRadius:12, overflow:"hidden" }}>
+                      <div style={{ padding:"11px 18px", background:C.ink, color:"#fff",
+                                    display:"flex", justifyContent:"space-between", flexWrap:"wrap", gap:6 }}>
+                        <span className="disp" style={{ fontSize:14, fontWeight:800 }}>
+                          Sesión {ses.s}-{ses.y}
+                        </span>
+                        <span style={{ fontSize:12, opacity:.8 }}>
+                          {ses.f || ""} · {ses.items.length} acuerdo{ses.items.length !== 1 ? "s" : ""}
+                        </span>
+                      </div>
+                      <div>
+                        {ses.items.map(a => (
+                          <div key={a.n} style={{ padding:"11px 18px", borderTop:`1px solid ${C.line}`,
+                                                  display:"flex", gap:10, alignItems:"flex-start" }}>
+                            <span style={{ fontFamily:"monospace", fontSize:10.5, fontWeight:700,
+                                           padding:"2px 7px", borderRadius:5, background:C.paper,
+                                           border:`1px solid ${C.line}`, color:C.inkSoft,
+                                           whiteSpace:"nowrap", marginTop:2 }}>N°{a.n}</span>
+                            <div style={{ flex:1 }}>
+                              <div style={{ fontSize:13, lineHeight:1.5, color:C.ink }}>{a.x}{a.x.length >= 320 ? "…" : ""}</div>
+                              <span style={{ display:"inline-block", marginTop:5, fontSize:10.5, fontWeight:700,
+                                             padding:"2px 9px", borderRadius:999,
+                                             background:C.paper, border:`1px solid ${C.line}`, color:C.inkSoft }}>
+                                {a.t}
+                              </span>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                {porSesion.length > maxSesiones && (
+                  <button className="chip" onClick={() => setMaxSesiones(maxSesiones + 12)}
+                    style={{ marginTop:16, padding:"11px 24px", borderRadius:10, width:"100%",
+                             border:`1.5px solid ${C.green}`, background:"transparent",
+                             fontSize:14, fontWeight:800, color:C.green }}>
+                    ▼ Cargar más sesiones ({porSesion.length - maxSesiones} restantes)
+                  </button>
+                )}
+                <div style={{ marginTop:12, fontSize:11.5, color:C.inkSoft, fontStyle:"italic" }}>
+                  {acuerdosData.nota}
+                </div>
+              </div>
+            )}
+
             <div style={{ marginTop:14, padding:"12px 16px", borderRadius:10,
                           background:C.paper, border:`1px solid ${C.line}`, fontSize:13 }}>
               💡 Las actas completas están en{" "}

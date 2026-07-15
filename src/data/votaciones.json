@@ -1,45 +1,55 @@
 {
   "nota": "Selección curada de acuerdos con relevancia ciudadana, extraída del análisis de los archivos oficiales de acuerdos del Concejo Municipal 2024–2026 descargados del portal de transparencia.",
   "stats": {
-    "acuerdos_analizados": 902,
+    "acuerdos_analizados": 1045,
     "por_anio": {
-      "2024": 179,
-      "2025": 449,
-      "2026": 274
+      "2024": 391,
+      "2025": 410,
+      "2026": 244
     },
     "sesiones_por_anio": {
-      "2024": 50,
-      "2025": 45,
+      "2024": 62,
+      "2025": 43,
       "2026": 30
     },
     "temas_principales": [
       {
         "tema": "Ambiente",
-        "n": 132
+        "n": 213
       },
       {
         "tema": "Vialidad y obras",
-        "n": 88
+        "n": 125
       },
       {
         "tema": "Presupuesto",
-        "n": 77
+        "n": 81
       },
       {
         "tema": "Social e inclusión",
-        "n": 66
-      },
-      {
-        "tema": "Contratación",
-        "n": 37
+        "n": 70
       },
       {
         "tema": "Seguridad",
-        "n": 35
+        "n": 46
+      },
+      {
+        "tema": "Contratación",
+        "n": 44
       }
     ]
   },
   "votaciones": [
+    {
+      "fecha": "6 jul 2026",
+      "anio": 2026,
+      "sesion": "41-2026",
+      "titulo": "Se elimina el requisito de ACAM para licencias comerciales — pese a advertencia de riesgo judicial",
+      "resultado": "Aprobado",
+      "area": "Economía local",
+      "detalle": "El Concejo aprobó el Dictamen 05-2026 de Asuntos Jurídicos, que acoge la moción de la Alcaldía para eliminar la comprobación de derechos de autor (ACAM) en trámites de licencias comerciales, e improbó posponer la decisión para pedir análisis legal. En la sesión, representantes de ACAM —incluidos los músicos Edín Solís (Editus) y la vicepresidenta Amanda Quesada, desamparadeña— advirtieron que el fundamento jurídico citado (un reglamento derogado) no es el que sostiene el requisito, y que a la Municipalidad de San Carlos un tribunal le ordenó restablecerlo tras eliminarlo. Los patentados del cantón apoyaron la eliminación.",
+      "fuente": "Acuerdos N.° 03 y 04, Sesión 41-2026 (oficios CM-SM-03/04-41-2026); Acta de la Sesión 41-2026"
+    },
     {
       "fecha": "1 may 2026",
       "anio": 2026,
