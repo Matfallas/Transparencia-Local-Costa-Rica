@@ -8,6 +8,8 @@ import presupuesto from "./data/presupuesto.json";
 import canton from "./data/canton.json";
 import alertasData from "./data/alertas.json";
 import acuerdosData from "./data/acuerdos.json";
+import asistenciaData from "./data/asistencia.json";
+import { CORREO_APORTES } from "./config.js";
 
 const C = {
   ink: "#14213D", inkSoft: "#3D4B6B", paper: "#FAFBF7", card: "#FFFFFF",
@@ -72,6 +74,7 @@ export default function App() {
   const [busqueda, setBusqueda]     = useState("");
   const [temaF, setTemaF]           = useState("todos");
   const [maxSesiones, setMaxSesiones] = useState(12);
+  const [cargoA, setCargoA]         = useState("Regiduría propietaria");
   const [heroOk, setHeroOk]         = useState(true);
 
   const metas = metasData.metas;
@@ -345,6 +348,74 @@ export default function App() {
               Las regidurías suplentes tienen voz y votan solo al sustituir a un propietario de su partido.
               También participan 13 síndicos/as distritales (voz, sin voto). Fuente: {concejo.fuente}.
             </div>
+
+            {/* ── ASISTENCIA A SESIONES ── */}
+            <div style={{ marginTop:28 }}>
+              <h3 className="disp" style={{ fontSize:19, fontWeight:900, marginBottom:6 }}>
+                📋 Asistencia a sesiones (2024–2026)
+              </h3>
+              <p style={{ fontSize:13.5, color:C.inkSoft, maxWidth:700, lineHeight:1.6, marginTop:0 }}>
+                Ausencias registradas por la Secretaría en las {asistenciaData.total_sesiones} actas analizadas
+                ({Object.entries(asistenciaData.cobertura).map(([a,n]) => `${n} de ${a}`).join(" · ")}).
+              </p>
+              <div className="card" style={{ background:"#F4F6FB", border:`1.5px solid ${C.verify}`,
+                                             borderRadius:10, padding:"11px 14px", margin:"10px 0 14px",
+                                             fontSize:12, lineHeight:1.55, color:C.inkSoft }}>
+                ⚖️ {asistenciaData.nota}
+              </div>
+
+              <div style={{ display:"flex", gap:8, flexWrap:"wrap", marginBottom:14 }}>
+                {["Regiduría propietaria","Regiduría suplente","Sindicatura propietaria","Sindicatura suplente / otros"].map(cg => (
+                  <button key={cg} className="chip" onClick={() => setCargoA(cg)}
+                    style={{ padding:"6px 14px", borderRadius:999, fontSize:12.5, fontWeight:700,
+                             border:`1.5px solid ${C.ink}`,
+                             background: cargoA===cg ? C.ink : "transparent",
+                             color: cargoA===cg ? "#fff" : C.ink }}>
+                    {cg.replace(" / otros","")}
+                  </button>
+                ))}
+              </div>
+
+              <div style={{ display:"grid", gap:8 }}>
+                {asistenciaData.personas.filter(p => p.cargo === cargoA).map(p => {
+                  const total = p.total;
+                  const pctPresencia = Math.max(0, Math.round(100 - (total / asistenciaData.total_sesiones) * 100));
+                  const color = total === 0 ? C.done : total <= 8 ? C.green : total <= 20 ? C.progress : C.stalled;
+                  return (
+                    <div key={p.nombre} className="card" style={{ background:C.card, border:`1px solid ${C.line}`,
+                                                                   borderRadius:10, padding:"11px 16px" }}>
+                      <div style={{ display:"flex", justifyContent:"space-between", flexWrap:"wrap", gap:6, alignItems:"center" }}>
+                        <div style={{ display:"flex", gap:8, alignItems:"center", flexWrap:"wrap" }}>
+                          <span style={{ fontSize:13.5, fontWeight:700 }}>{p.nombre}</span>
+                          {p.partido && PARTIDOS[p.partido] && <Badge partido={p.partido} small />}
+                          {total === 0 && (
+                            <span style={{ fontSize:10.5, fontWeight:800, padding:"2px 9px", borderRadius:999,
+                                           background:"#E9F7F1", border:`1px solid ${C.done}`, color:C.green }}>
+                              ★ ASISTENCIA PERFECTA
+                            </span>
+                          )}
+                        </div>
+                        <span style={{ fontSize:12.5, fontWeight:800, color }}>
+                          {total} ausencia{total !== 1 ? "s" : ""} · {pctPresencia}% presencia
+                        </span>
+                      </div>
+                      <div style={{ display:"flex", gap:6, marginTop:8, alignItems:"center" }}>
+                        <div style={{ flex:1, height:7, borderRadius:999, background:C.line, overflow:"hidden" }}>
+                          <div style={{ width:`${pctPresencia}%`, height:"100%", background:color, borderRadius:999 }}/>
+                        </div>
+                        <span style={{ fontSize:10.5, color:C.inkSoft, whiteSpace:"nowrap" }}>
+                          {Object.entries(p.ausencias).map(([a,n]) => `${a}: ${n}`).join(" · ") || "sin ausencias registradas"}
+                        </span>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+              <div style={{ marginTop:10, fontSize:11.5, color:C.inkSoft, fontStyle:"italic" }}>
+                📄 Fuente: {asistenciaData.fuente}. En sindicaturas, las actas registran las sustituciones
+                (la suplencia asume cuando la propietaria se ausenta).
+              </div>
+            </div>
           </div>
         )}
 
@@ -432,6 +503,17 @@ export default function App() {
                       <div style={{ marginTop:10, fontSize:13, color:C.inkSoft, lineHeight:1.5,
                                     borderTop:`1px solid ${C.line}`, paddingTop:10 }}>
                         <strong style={{ color:C.ink }}>Evidencia:</strong> {m.evidencia}
+                        {m.fuentes && m.fuentes.length > 0 && (
+                          <div style={{ marginTop:8, display:"flex", flexDirection:"column", gap:4 }}>
+                            {m.fuentes.map((f,fi) => (
+                              <a key={fi} href={f.url} target="_blank" rel="noreferrer"
+                                 onClick={e => e.stopPropagation()}
+                                 style={{ fontSize:12.5, color:C.green, fontWeight:700, textDecoration:"none" }}>
+                                📄 {f.titulo} →
+                              </a>
+                            ))}
+                          </div>
+                        )}
                       </div>
                     )}
                     <div style={{ marginTop:6, fontSize:11.5, color:C.inkSoft }}>
@@ -876,7 +958,19 @@ export default function App() {
                 style={{ width:"100%", boxSizing:"border-box", padding:12, borderRadius:10,
                          border:`1.5px solid ${C.line}`, fontSize:14, resize:"vertical",
                          fontFamily:"inherit", color:C.ink, background:C.paper }}/>
-              <button onClick={() => { if(aporteTexto.trim()){setAporteEnviado(true);setAporteTexto("");setTimeout(()=>setAporteEnviado(false),3500); }}}
+              <button onClick={async () => {
+                  if(!aporteTexto.trim()) return;
+                  if (CORREO_APORTES) {
+                    try {
+                      await fetch("https://formsubmit.co/ajax/" + CORREO_APORTES, {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+                        body: JSON.stringify({ _subject: "Aporte ciudadano — CívicosCR", aporte: aporteTexto, pagina: "Desamparados" })
+                      });
+                    } catch (err) { console.error("Fallo el envío del aporte:", err); }
+                  }
+                  setAporteEnviado(true); setAporteTexto(""); setTimeout(()=>setAporteEnviado(false),3500);
+                }}
                 style={{ marginTop:12, padding:"10px 22px", borderRadius:10, border:"none",
                          background:C.green, color:"#fff", fontSize:14, fontWeight:700, cursor:"pointer" }}>
                 Enviar para verificación
@@ -885,7 +979,7 @@ export default function App() {
                 <div style={{ marginTop:12, padding:"10px 14px", borderRadius:10,
                               background:"#E9F7F1", border:`1px solid ${C.done}`,
                               fontSize:13.5, color:C.green, fontWeight:600 }}>
-                  ✅ ¡Gracias! Tu aporte entró a la cola de verificación comunitaria.
+                  ✅ ¡Gracias! {CORREO_APORTES ? "Tu aporte fue enviado al equipo de verificación." : "Tu aporte entró a la cola de verificación (modo demostración: configurá el correo en src/config.js para recibirlos)."}
                 </div>
               )}
             </div>

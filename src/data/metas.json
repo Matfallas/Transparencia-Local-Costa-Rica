@@ -8,7 +8,13 @@
       "area": "Ordenamiento territorial",
       "estado": "progreso",
       "avance": 70,
-      "evidencia": "Rendición de Cuentas 2025: la actualización del Plan Regulador reporta un avance del 70% (en 2024 iba en la cuarta etapa, ~62%). El plazo original era 2025, por lo que avanza con retraso. En 2026 la Comisión de Plan Regulador emitió su Dictamen 01-2026 y el Concejo convocó sesiones extraordinarias de avance (Sesiones 7 y 23-2026)."
+      "evidencia": "Rendición de Cuentas 2025: la actualización del Plan Regulador reporta un avance del 70% (en 2024 iba en la cuarta etapa, ~62%). El plazo original era 2025, por lo que avanza con retraso. En 2026 la Comisión de Plan Regulador emitió su Dictamen 01-2026 y el Concejo convocó sesiones extraordinarias de avance (Sesiones 7 y 23-2026).",
+      "fuentes": [
+        {
+          "titulo": "Actas del Concejo (Dictamen 01-2026, Comisión de Plan Regulador)",
+          "url": "https://transparencia.desamparados.go.cr/rendicion-de-cuentas/actas-y-acuerdos"
+        }
+      ]
     },
     {
       "codigo": "ME31",
@@ -17,7 +23,13 @@
       "area": "Niñez y juventud",
       "estado": "estancada",
       "avance": 40,
-      "evidencia": "Plazo (2025) vencido sin evidencia de cumplimiento en los documentos oficiales analizados: actas, acuerdos y rendiciones de cuentas 2024–2026. Corresponde a la Alerta de fiscalización por plazos vencidos."
+      "evidencia": "Plazo (2025) vencido sin evidencia de cumplimiento en los documentos oficiales analizados: actas, acuerdos y rendiciones de cuentas 2024–2026. Corresponde a la Alerta de fiscalización por plazos vencidos.",
+      "fuentes": [
+        {
+          "titulo": "PDM 2024–2028 (meta con plazo 2025)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME32",
@@ -26,7 +38,13 @@
       "area": "Inclusión",
       "estado": "sin-verificar",
       "avance": 0,
-      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Plazo 2026. Dónde buscar: informes de cumplimiento."
+      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Plazo 2026. Dónde buscar: informes de cumplimiento.",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME11",
@@ -35,7 +53,13 @@
       "area": "Tecnología",
       "estado": "sin-verificar",
       "avance": 0,
-      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: sección Muni Virtual en desamparados.go.cr para ver trámites disponibles en línea."
+      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: sección Muni Virtual en desamparados.go.cr para ver trámites disponibles en línea.",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME1",
@@ -44,7 +68,13 @@
       "area": "Planificación",
       "estado": "sin-verificar",
       "avance": 0,
-      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: informes de cumplimiento y rendición de cuentas anuales."
+      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: informes de cumplimiento y rendición de cuentas anuales.",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME2",
@@ -52,7 +82,13 @@
       "area": "Inclusión",
       "estado": "cumplida",
       "avance": 100,
-      "evidencia": "Informe de Rendición de Cuentas 2024: se abrió la oficina municipal para la atención a la población adulta mayor y en situación de discapacidad. La Municipalidad fue premiada por AGECO."
+      "evidencia": "Informe de Rendición de Cuentas 2024: se abrió la oficina municipal para la atención a la población adulta mayor y en situación de discapacidad. La Municipalidad fue premiada por AGECO.",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME13",
@@ -61,7 +97,13 @@
       "area": "Planificación",
       "estado": "progreso",
       "avance": 40,
-      "evidencia": "Informe de Rendición de Cuentas 2024: alianzas estratégicas permitieron la atención integral gratuita de 1.000 personas; el gobierno local participa en programas interinstitucionales."
+      "evidencia": "Informe de Rendición de Cuentas 2024: alianzas estratégicas permitieron la atención integral gratuita de 1.000 personas; el gobierno local participa en programas interinstitucionales.",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME15",
@@ -70,7 +112,13 @@
       "area": "Ambiente",
       "estado": "sin-verificar",
       "avance": 0,
-      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: redes sociales y noticias de la Municipalidad (Facebook: MuniDesamparados)."
+      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: redes sociales y noticias de la Municipalidad (Facebook: MuniDesamparados).",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME16",
@@ -79,7 +127,13 @@
       "area": "Ambiente",
       "estado": "sin-verificar",
       "avance": 0,
-      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: noticias y rendición de cuentas de la Alcaldía."
+      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: noticias y rendición de cuentas de la Alcaldía.",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME19",
@@ -87,7 +141,13 @@
       "area": "Ambiente",
       "estado": "sin-verificar",
       "avance": 0,
-      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: informes de la Gestión de Saneamiento Ambiental."
+      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: informes de la Gestión de Saneamiento Ambiental.",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME20",
@@ -95,7 +155,13 @@
       "area": "Espacio público",
       "estado": "sin-verificar",
       "avance": 0,
-      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: actas del Concejo (Comisión de Obras) e informes de la Alcaldía."
+      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: actas del Concejo (Comisión de Obras) e informes de la Alcaldía.",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME17",
@@ -104,7 +170,13 @@
       "area": "Infraestructura",
       "estado": "sin-verificar",
       "avance": 0,
-      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: informes de Servicios Públicos municipales."
+      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: informes de Servicios Públicos municipales.",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME23",
@@ -112,7 +184,17 @@
       "area": "Infraestructura",
       "estado": "progreso",
       "avance": 60,
-      "evidencia": "Inversión vial documentada en las liquidaciones: ₡849,2 M ejecutados/comprometidos en 2024 y ₡1.457,4 M en 2025 (90% de ejecución). El nuevo Plan Quinquenal 2026-2030 ya fue publicado en el portal de transparencia."
+      "evidencia": "Inversión vial documentada en las liquidaciones: ₡849,2 M ejecutados/comprometidos en 2024 y ₡1.457,4 M en 2025 (90% de ejecución). El nuevo Plan Quinquenal 2026-2030 ya fue publicado en el portal de transparencia.",
+      "fuentes": [
+        {
+          "titulo": "Liquidaciones presupuestarias 2024 y 2025 (inversión vial)",
+          "url": "https://transparencia.desamparados.go.cr/rendicion-de-cuentas/presupuesto"
+        },
+        {
+          "titulo": "Plan Quinquenal Vial 2026-2030",
+          "url": "https://transparencia.desamparados.go.cr/rendicion-de-cuentas/planes-institucionales"
+        }
+      ]
     },
     {
       "codigo": "ME28",
@@ -121,7 +203,13 @@
       "area": "Economía local",
       "estado": "progreso",
       "avance": 50,
-      "evidencia": "Informe de Rendición de Cuentas 2024: 6 ferias de empleo realizadas, apoyo directo a 7 emprendimientos, más de 2.700 personas capacitadas en empleabilidad y emprendimiento, y 3 graduaciones técnicas."
+      "evidencia": "Informe de Rendición de Cuentas 2024: 6 ferias de empleo realizadas, apoyo directo a 7 emprendimientos, más de 2.700 personas capacitadas en empleabilidad y emprendimiento, y 3 graduaciones técnicas.",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME27",
@@ -129,7 +217,13 @@
       "area": "Economía local",
       "estado": "sin-verificar",
       "avance": 0,
-      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: rendición de cuentas y noticias municipales de los distritos rurales."
+      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: rendición de cuentas y noticias municipales de los distritos rurales.",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME29",
@@ -138,7 +232,13 @@
       "area": "Salud",
       "estado": "progreso",
       "avance": 50,
-      "evidencia": "Informe de Rendición de Cuentas 2024: nuevos espacios de esparcimiento de salud mental para niñez, y alianzas estratégicas que permitieron la atención integral gratuita de 1.000 personas."
+      "evidencia": "Informe de Rendición de Cuentas 2024: nuevos espacios de esparcimiento de salud mental para niñez, y alianzas estratégicas que permitieron la atención integral gratuita de 1.000 personas.",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME30",
@@ -147,7 +247,13 @@
       "area": "Tecnología",
       "estado": "sin-verificar",
       "avance": 0,
-      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: actas del Concejo y noticias municipales sobre WiFi público."
+      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: actas del Concejo y noticias municipales sobre WiFi público.",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME35",
@@ -155,7 +261,17 @@
       "area": "Seguridad",
       "estado": "progreso",
       "avance": 55,
-      "evidencia": "RC 2024: la Policía Municipal atendió 518 denuncias, realizó 18 intervenciones con drone y facilitó 373 vídeos para investigaciones; personal capacitado en armas 9mm y técnica CQB. Además, en enero 2026 el Concejo adjudicó videovigilancia para 13 edificios municipales (Sesión 01-2026). Además, en la Sesión 56-2025 el Concejo aprobó incorporar nuevas plazas de Policía Municipal al presupuesto 2026 (moción no. 2288)."
+      "evidencia": "RC 2024: la Policía Municipal atendió 518 denuncias, realizó 18 intervenciones con drone y facilitó 373 vídeos para investigaciones; personal capacitado en armas 9mm y técnica CQB. Además, en enero 2026 el Concejo adjudicó videovigilancia para 13 edificios municipales (Sesión 01-2026). Además, en la Sesión 56-2025 el Concejo aprobó incorporar nuevas plazas de Policía Municipal al presupuesto 2026 (moción no. 2288).",
+      "fuentes": [
+        {
+          "titulo": "Actas y acuerdos del Concejo (Sesión 01-2026: adjudicación de videovigilancia)",
+          "url": "https://transparencia.desamparados.go.cr/rendicion-de-cuentas/actas-y-acuerdos"
+        },
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME36",
@@ -164,7 +280,13 @@
       "area": "Seguridad",
       "estado": "sin-verificar",
       "avance": 0,
-      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: actas del Concejo, Comisión de Seguridad, e informes de Policía Municipal."
+      "evidencia": "Sin evidencia pública de avance en los 902 acuerdos, actas y rendiciones de cuentas analizados (2024–2026). Dónde buscar: actas del Concejo, Comisión de Seguridad, e informes de Policía Municipal.",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     },
     {
       "codigo": "ME38",
@@ -172,7 +294,13 @@
       "area": "Cultura",
       "estado": "cumplida",
       "avance": 100,
-      "evidencia": "Informe de Rendición de Cuentas 2024: programa cultural cantonal activo — Banda Municipal (destacada en el Festival de la Luz), Sinfónica Municipal, y más de 500 personas integradas en cursos y talleres culturales durante 2024."
+      "evidencia": "Informe de Rendición de Cuentas 2024: programa cultural cantonal activo — Banda Municipal (destacada en el Festival de la Luz), Sinfónica Municipal, y más de 500 personas integradas en cursos y talleres culturales durante 2024.",
+      "fuentes": [
+        {
+          "titulo": "Plan de Desarrollo Municipal 2024–2028 (documento oficial)",
+          "url": "https://www.desamparados.go.cr/es/municipalidad/concejo-municipal"
+        }
+      ]
     }
   ]
 }

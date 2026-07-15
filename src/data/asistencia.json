@@ -1,0 +1,709 @@
+{
+ "nota": "Ausencias registradas literalmente por la Secretaría del Concejo en el capítulo de comprobación de asistencia de cada acta. Una ausencia puede estar justificada (salud, licencia u otras razones) y las suplencias operan para mantener el cuórum: este registro no es un juicio, es el dato público tal como consta en actas.",
+ "cobertura": {
+  "2024": 74,
+  "2025": 76,
+  "2026": 40
+ },
+ "total_sesiones": 190,
+ "fuente": "Actas de las sesiones del Concejo Municipal de Desamparados 2024–2026 (portal de transparencia municipal)",
+ "personas": [
+  {
+   "nombre": "Alice Quirós Calvo",
+   "cargo": "Sindicatura propietaria",
+   "partido": null,
+   "ausencias": {
+    "2024": 45,
+    "2025": 69,
+    "2026": 39
+   },
+   "total": 153
+  },
+  {
+   "nombre": "Javier Umaña Valenciano",
+   "cargo": "Regiduría suplente",
+   "partido": "PLP",
+   "ausencias": {
+    "2024": 6,
+    "2025": 43,
+    "2026": 2
+   },
+   "total": 51
+  },
+  {
+   "nombre": "José Pablo Hidalgo Méndez",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 13,
+    "2025": 20,
+    "2026": 11
+   },
+   "total": 44
+  },
+  {
+   "nombre": "Julieth Mariam Rodríguez Mora",
+   "cargo": "Sindicatura propietaria",
+   "partido": null,
+   "ausencias": {
+    "2024": 30,
+    "2025": 4,
+    "2026": 6
+   },
+   "total": 40
+  },
+  {
+   "nombre": "Javier Alberto Muñoz Segura",
+   "cargo": "Sindicatura propietaria",
+   "partido": null,
+   "ausencias": {
+    "2024": 8,
+    "2025": 25,
+    "2026": 6
+   },
+   "total": 39
+  },
+  {
+   "nombre": "Natalia María Robles Amador",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 35
+   },
+   "total": 35
+  },
+  {
+   "nombre": "Karina Paola Rodríguez Morales",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 13,
+    "2025": 15,
+    "2026": 4
+   },
+   "total": 32
+  },
+  {
+   "nombre": "Allison de los Ángeles Sánchez Chavarría",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 25
+   },
+   "total": 25
+  },
+  {
+   "nombre": "Aliander Garro Piedra",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 24
+   },
+   "total": 24
+  },
+  {
+   "nombre": "Melissa Monge Arias",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 24
+   },
+   "total": 24
+  },
+  {
+   "nombre": "Wilberth José Quesada Fallas",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 8,
+    "2025": 8,
+    "2026": 3
+   },
+   "total": 19
+  },
+  {
+   "nombre": "Fabiola Masis Valverde",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 3,
+    "2025": 11,
+    "2026": 3
+   },
+   "total": 17
+  },
+  {
+   "nombre": "Laura González Villalobos",
+   "cargo": "Sindicatura propietaria",
+   "partido": null,
+   "ausencias": {
+    "2024": 9,
+    "2025": 5,
+    "2026": 3
+   },
+   "total": 17
+  },
+  {
+   "nombre": "Karen Rosales Alfaro",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 3,
+    "2025": 8,
+    "2026": 5
+   },
+   "total": 16
+  },
+  {
+   "nombre": "Luis José Flores Jiménez",
+   "cargo": "Regiduría propietaria",
+   "partido": "PNP",
+   "ausencias": {
+    "2024": 4,
+    "2025": 11
+   },
+   "total": 15
+  },
+  {
+   "nombre": "Randall Sibaja Miranda",
+   "cargo": "Regiduría suplente",
+   "partido": "PUSC",
+   "ausencias": {
+    "2024": 1,
+    "2025": 9,
+    "2026": 4
+   },
+   "total": 14
+  },
+  {
+   "nombre": "Annie Pamela Suarez Abarca",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 3,
+    "2025": 7,
+    "2026": 3
+   },
+   "total": 13
+  },
+  {
+   "nombre": "Evelio Segura Chacón",
+   "cargo": "Sindicatura propietaria",
+   "partido": null,
+   "ausencias": {
+    "2024": 5,
+    "2025": 5,
+    "2026": 3
+   },
+   "total": 13
+  },
+  {
+   "nombre": "María Isabel Llamas Echeverría",
+   "cargo": "Regiduría propietaria",
+   "partido": "PUSC",
+   "ausencias": {
+    "2024": 2,
+    "2025": 10,
+    "2026": 1
+   },
+   "total": 13
+  },
+  {
+   "nombre": "José Marcial Rodríguez Carvajal",
+   "cargo": "Regiduría suplente",
+   "partido": "PECC",
+   "ausencias": {
+    "2024": 3,
+    "2025": 5,
+    "2026": 4
+   },
+   "total": 12
+  },
+  {
+   "nombre": "Eduardo Gardela Ramírez",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 2,
+    "2025": 8,
+    "2026": 1
+   },
+   "total": 11
+  },
+  {
+   "nombre": "Kristhian Arturo Chacón Ureña",
+   "cargo": "Regiduría propietaria",
+   "partido": "PNR",
+   "ausencias": {
+    "2025": 7,
+    "2026": 4
+   },
+   "total": 11
+  },
+  {
+   "nombre": "Humberto Iván Campos Paniagua",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 9
+   },
+   "total": 9
+  },
+  {
+   "nombre": "Joaquín Bernardo Aguilar Loria",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 5,
+    "2025": 4
+   },
+   "total": 9
+  },
+  {
+   "nombre": "Kenneth Alexander Cubillo Vargas",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 9
+   },
+   "total": 9
+  },
+  {
+   "nombre": "Adrián Eduardo Monge Monge",
+   "cargo": "Regiduría suplente",
+   "partido": "PNP",
+   "ausencias": {
+    "2025": 5,
+    "2026": 3
+   },
+   "total": 8
+  },
+  {
+   "nombre": "Gabriel Gustavo Picado Oviedo",
+   "cargo": "Regiduría propietaria",
+   "partido": "PLN",
+   "ausencias": {
+    "2025": 3,
+    "2026": 5
+   },
+   "total": 8
+  },
+  {
+   "nombre": "Mónica Marcela Mora Quirós",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 8
+   },
+   "total": 8
+  },
+  {
+   "nombre": "Zaira Elena Romero Fallas",
+   "cargo": "Regiduría suplente",
+   "partido": "PLN",
+   "ausencias": {
+    "2024": 2,
+    "2025": 3,
+    "2026": 2
+   },
+   "total": 7
+  },
+  {
+   "nombre": "Karla Vanessa Mora Rodríguez",
+   "cargo": "Regiduría propietaria",
+   "partido": "PLN",
+   "ausencias": {
+    "2024": 1,
+    "2025": 4,
+    "2026": 1
+   },
+   "total": 6
+  },
+  {
+   "nombre": "Maureen Verónica Camacho Astúa",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 6
+   },
+   "total": 6
+  },
+  {
+   "nombre": "Wendy Vanessa Carvajal Ureña",
+   "cargo": "Sindicatura propietaria",
+   "partido": null,
+   "ausencias": {
+    "2024": 4,
+    "2025": 2
+   },
+   "total": 6
+  },
+  {
+   "nombre": "Emeidy Lorena Jiménez Escamilla",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 1,
+    "2026": 4
+   },
+   "total": 5
+  },
+  {
+   "nombre": "Jesús Rodríguez Gutiérrez",
+   "cargo": "Regiduría propietaria",
+   "partido": "PECC",
+   "ausencias": {
+    "2024": 3,
+    "2025": 2
+   },
+   "total": 5
+  },
+  {
+   "nombre": "Karina Paola Rodríguez Mora",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 5
+   },
+   "total": 5
+  },
+  {
+   "nombre": "Lizandro David Porras Calderón",
+   "cargo": "Sindicatura propietaria",
+   "partido": null,
+   "ausencias": {
+    "2025": 5
+   },
+   "total": 5
+  },
+  {
+   "nombre": "Lolita Patricia Calderón Astúa",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 3,
+    "2025": 2
+   },
+   "total": 5
+  },
+  {
+   "nombre": "Said Enrique López Calvo",
+   "cargo": "Sindicatura propietaria",
+   "partido": null,
+   "ausencias": {
+    "2024": 3,
+    "2025": 2
+   },
+   "total": 5
+  },
+  {
+   "nombre": "Sara Isela Mora Salazar",
+   "cargo": "Sindicatura propietaria",
+   "partido": null,
+   "ausencias": {
+    "2024": 1,
+    "2025": 1,
+    "2026": 3
+   },
+   "total": 5
+  },
+  {
+   "nombre": "Juan Chacón Castillo",
+   "cargo": "Regiduría propietaria",
+   "partido": "PLN",
+   "ausencias": {
+    "2024": 2,
+    "2025": 2
+   },
+   "total": 4
+  },
+  {
+   "nombre": "Marino Cristóbal Pérez Guzmán",
+   "cargo": "Sindicatura propietaria",
+   "partido": null,
+   "ausencias": {
+    "2024": 1,
+    "2025": 3
+   },
+   "total": 4
+  },
+  {
+   "nombre": "Ricardo Antonio Arce Díaz",
+   "cargo": "Regiduría propietaria",
+   "partido": "PPSD",
+   "ausencias": {
+    "2025": 2,
+    "2026": 2
+   },
+   "total": 4
+  },
+  {
+   "nombre": "Carmen Martínez Jackson",
+   "cargo": "Regiduría suplente",
+   "partido": "PUSC",
+   "ausencias": {
+    "2024": 1,
+    "2025": 2
+   },
+   "total": 3
+  },
+  {
+   "nombre": "Karol María Barrios Hernández",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 3
+   },
+   "total": 3
+  },
+  {
+   "nombre": "María Antonieta Naranjo Brenes",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 3
+   },
+   "total": 3
+  },
+  {
+   "nombre": "Mauren Verónica Camacho Astúa",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 3
+   },
+   "total": 3
+  },
+  {
+   "nombre": "Walter Jesús Garro Araya",
+   "cargo": "Regiduría suplente",
+   "partido": "PNR",
+   "ausencias": {
+    "2024": 1,
+    "2025": 2
+   },
+   "total": 3
+  },
+  {
+   "nombre": "Emmanuel Eduardo Vega Serrano",
+   "cargo": "Sindicatura propietaria",
+   "partido": null,
+   "ausencias": {
+    "2025": 2
+   },
+   "total": 2
+  },
+  {
+   "nombre": "Freddy Gutiérrez Umaña",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 2
+   },
+   "total": 2
+  },
+  {
+   "nombre": "Ingrid Vanessa Zeledón Jiménez",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 2
+   },
+   "total": 2
+  },
+  {
+   "nombre": "Luis Carlos Núñez Herrera",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 2
+   },
+   "total": 2
+  },
+  {
+   "nombre": "Rodrigo Díaz Naranjo",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 2
+   },
+   "total": 2
+  },
+  {
+   "nombre": "Sebastián Mora Chacón",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2025": 1,
+    "2026": 1
+   },
+   "total": 2
+  },
+  {
+   "nombre": "Eduardo Guillen Gardela",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 1
+   },
+   "total": 1
+  },
+  {
+   "nombre": "Irma Isis Loría Vega",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 1
+   },
+   "total": 1
+  },
+  {
+   "nombre": "José Pablo Hidalgo Méndez Seguidamente se procede con el canto del himno al cantón de Desamparados",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2025": 1
+   },
+   "total": 1
+  },
+  {
+   "nombre": "Laura Gonzáles Villalobos",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 1
+   },
+   "total": 1
+  },
+  {
+   "nombre": "Luis Fernando Mora García",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 1
+   },
+   "total": 1
+  },
+  {
+   "nombre": "Luis Guillermo Gómez Godínez",
+   "cargo": "Regiduría propietaria",
+   "partido": "PLP",
+   "ausencias": {
+    "2024": 1
+   },
+   "total": 1
+  },
+  {
+   "nombre": "Mario Esteban Raitt Núñez",
+   "cargo": "Regiduría suplente",
+   "partido": "FA",
+   "ausencias": {
+    "2026": 1
+   },
+   "total": 1
+  },
+  {
+   "nombre": "Marvin Enrique Monterrosa Ramírez",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 1
+   },
+   "total": 1
+  },
+  {
+   "nombre": "Mónica Marcela Mora Quirós Aliander Garro Piedra",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 1
+   },
+   "total": 1
+  },
+  {
+   "nombre": "Natalia Amador Robles",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 1
+   },
+   "total": 1
+  },
+  {
+   "nombre": "Sebastián David Mora Chacón (comisionado)",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 1
+   },
+   "total": 1
+  },
+  {
+   "nombre": "Sebastián David Sánchez Ramírez",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 1
+   },
+   "total": 1
+  },
+  {
+   "nombre": "Álvaro Antonio Fallas Segura",
+   "cargo": "Sindicatura suplente / otros",
+   "partido": null,
+   "ausencias": {
+    "2024": 1
+   },
+   "total": 1
+  },
+  {
+   "nombre": "Eduardo Gardela Ramírez",
+   "cargo": "Regiduría propietaria",
+   "partido": "FA",
+   "ausencias": {},
+   "total": 0
+  },
+  {
+   "nombre": "Fausto Javier Montes Chinchilla",
+   "cargo": "Sindicatura propietaria",
+   "partido": null,
+   "ausencias": {},
+   "total": 0
+  },
+  {
+   "nombre": "Jonathan Mauricio Chavarría Sibaja",
+   "cargo": "Regiduría propietaria",
+   "partido": "PUSC",
+   "ausencias": {},
+   "total": 0
+  },
+  {
+   "nombre": "José Antonio Chavarría Arce",
+   "cargo": "Sindicatura propietaria",
+   "partido": null,
+   "ausencias": {},
+   "total": 0
+  },
+  {
+   "nombre": "Manuel Araya Badilla",
+   "cargo": "Regiduría suplente",
+   "partido": "PLN",
+   "ausencias": {},
+   "total": 0
+  },
+  {
+   "nombre": "Vinicio Alberto Valverde Chacón",
+   "cargo": "Regiduría suplente",
+   "partido": "PLN",
+   "ausencias": {},
+   "total": 0
+  },
+  {
+   "nombre": "William Solera Alfaro",
+   "cargo": "Regiduría suplente",
+   "partido": "PPSD",
+   "ausencias": {},
+   "total": 0
+  }
+ ]
+}
