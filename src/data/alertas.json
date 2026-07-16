@@ -77,6 +77,18 @@
         "Acta de la Sesión 41-2026, Capítulo VII — audiencia a ACAM y patentados (portal de transparencia → Actas y acuerdos 2026)"
       ],
       "estado": "Documentada — decisión reciente, en seguimiento"
+    },
+    {
+      "id": "A7",
+      "nivel": "media",
+      "area": "Vialidad y obras",
+      "titulo": "El desglose de obras viales por distrito no se actualiza desde 2023",
+      "hecho": "El último desglose público de longitud intervenida e inversión en obras viales por distrito corresponde al año 2023 (76.532 metros intervenidos, ₡974,9 millones invertidos en los 13 distritos). No se ha publicado una actualización de este detalle por distrito para 2024, 2025 ni 2026.",
+      "contraste": "El Plan de Gobierno y el PDM 2024–2028 priorizan la obra vial (meta ME23) como uno de los ejes de inversión más sensibles para la ciudadanía. Sin un desglose actualizado por distrito, es imposible verificar si la inversión vial se distribuye de forma equilibrada entre zonas urbanas y rurales en los años más recientes.",
+      "fuentes": [
+        "Obras Viales por Distrito 2023 (informe municipal de ejecución vial por distrito)"
+      ],
+      "estado": "Documentada — sin datos más recientes publicados"
     }
   ]
 }

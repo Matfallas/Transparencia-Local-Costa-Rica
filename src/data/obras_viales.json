@@ -1,0 +1,22 @@
+{
+  "anio": 2023,
+  "distritos": [
+    { "distrito": "Damas",             "metros": 1901,  "inversion": 38583706 },
+    { "distrito": "Desamparados",      "metros": 3315,  "inversion": 113754861 },
+    { "distrito": "El Rosario",        "metros": 3447,  "inversion": 72048102 },
+    { "distrito": "Frailes",           "metros": 6349,  "inversion": 33186595 },
+    { "distrito": "Gravilias",         "metros": 966,   "inversion": 69492361 },
+    { "distrito": "Los Guido",         "metros": 1278,  "inversion": 47005002 },
+    { "distrito": "Patarrá",           "metros": 14053, "inversion": 159398263 },
+    { "distrito": "San Antonio",       "metros": 1595,  "inversion": 39810626 },
+    { "distrito": "San Cristóbal",     "metros": 19478, "inversion": 147966543 },
+    { "distrito": "San Juan de Dios",  "metros": 2425,  "inversion": 49015146 },
+    { "distrito": "San Miguel",        "metros": 9174,  "inversion": 121657536 },
+    { "distrito": "San Rafael Abajo",  "metros": 10970, "inversion": 35852615 },
+    { "distrito": "San Rafael Arriba", "metros": 1581,  "inversion": 47116328 }
+  ],
+  "total_metros": 76532,
+  "total_inversion": 974887683,
+  "nota": "Desglose de longitud intervenida e inversión en obras viales por distrito, correspondiente al año 2023. Es el último desglose por distrito disponible: la Municipalidad no ha publicado una actualización de este detalle desde entonces.",
+  "fuente": "Obras Viales por Distrito 2023 (informe municipal de ejecución vial por distrito)"
+}
