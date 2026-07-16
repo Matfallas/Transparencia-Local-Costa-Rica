@@ -578,11 +578,17 @@ export default function App() {
                         {m.fuentes && m.fuentes.length > 0 && (
                           <div style={{ marginTop:8, display:"flex", flexDirection:"column", gap:4 }}>
                             {m.fuentes.map((f,fi) => (
-                              <a key={fi} href={f.url} target="_blank" rel="noreferrer"
-                                 onClick={e => e.stopPropagation()}
-                                 style={{ fontSize:12.5, color:C.green, fontWeight:700, textDecoration:"none" }}>
-                                📄 {f.titulo} →
-                              </a>
+                              <div key={fi} style={{ fontSize:12, lineHeight:1.5,
+                                                     padding:"7px 10px", borderRadius:8,
+                                                     background:C.paper, border:`1px solid ${C.line}` }}>
+                                <div style={{ fontWeight:700, color:C.ink }}>📄 {f.doc}</div>
+                                <div style={{ color:C.inkSoft }}>{f.loc}</div>
+                                <a href={f.url} target="_blank" rel="noreferrer"
+                                   onClick={e => e.stopPropagation()}
+                                   style={{ fontSize:11.5, color:C.green, fontWeight:700, textDecoration:"none" }}>
+                                  Ver en el portal municipal →
+                                </a>
+                              </div>
                             ))}
                           </div>
                         )}
