@@ -5,6 +5,7 @@ import concejo from "./data/concejo.json";
 import metasData from "./data/metas.json";
 import votacionesData from "./data/votaciones.json";
 import presupuesto from "./data/presupuesto.json";
+import obrasViales from "./data/obras_viales.json";
 import canton from "./data/canton.json";
 import alertasData from "./data/alertas.json";
 import acuerdosData from "./data/acuerdos.json";
@@ -720,6 +721,47 @@ export default function App() {
               Fuente: {P.fuente} ·{" "}
               <a href={presupuesto.fuenteOficial} target="_blank" rel="noreferrer"
                  style={{ color:C.green }}>Portal de transparencia →</a>
+            </div>
+
+            {/* Obras viales por distrito */}
+            <div className="card" style={{ background:C.card, border:`1px solid ${C.line}`,
+                                           borderRadius:12, padding:"20px 12px 16px", marginTop:24 }}>
+              <div className="disp" style={{ fontSize:15, fontWeight:700, marginLeft:12, marginBottom:4 }}>
+                🛣️ Obras viales por distrito ({obrasViales.anio})
+              </div>
+              <div style={{ margin:"0 12px 10px", fontSize:12, color:C.inkSoft, lineHeight:1.5 }}>
+                {obrasViales.nota}
+              </div>
+              <ResponsiveContainer width="100%" height={Math.max(220, obrasViales.distritos.length*30)}>
+                <BarChart data={[...obrasViales.distritos].sort((a,b) => b.inversion-a.inversion)}
+                          layout="vertical" margin={{ left:16, right:50 }}>
+                  <XAxis type="number" tick={{ fontSize:11, fill:C.inkSoft }}
+                         tickFormatter={v => "₡"+(v/1e6).toLocaleString("es-CR",{maximumFractionDigits:0})+"M"} />
+                  <YAxis type="category" dataKey="distrito" width={130}
+                         tick={{ fontSize:11, fill:C.ink, fontWeight:600 }} />
+                  <Tooltip formatter={(v,n,p) => ["₡"+v.toLocaleString("es-CR")+` (${p.payload.metros.toLocaleString("es-CR")} m)`, "Inversión"]}
+                           cursor={{ fill:"rgba(20,33,61,.04)" }} />
+                  <Bar dataKey="inversion" radius={[0,6,6,0]} fill={C.verify} />
+                </BarChart>
+              </ResponsiveContainer>
+              <div style={{ display:"flex", flexWrap:"wrap", gap:12, justifyContent:"space-between",
+                            margin:"10px 12px 0", fontSize:12, fontWeight:700, color:C.inkSoft }}>
+                <span>Total: {obrasViales.total_metros.toLocaleString("es-CR")} m intervenidos</span>
+                <span>Total: ₡{obrasViales.total_inversion.toLocaleString("es-CR")} invertidos</span>
+              </div>
+              <div style={{ margin:"14px 12px 0", padding:"12px 16px", borderRadius:10,
+                            background:"#FDF0EE", border:`1.5px solid ${C.stalled}`,
+                            fontSize:12.5, lineHeight:1.55 }}>
+                <strong style={{ color:C.stalled }}>⚠ Dato desactualizado:</strong> este desglose
+                corresponde a {obrasViales.anio} y la Municipalidad no ha publicado una actualización
+                por distrito desde entonces. Ver{" "}
+                <a onClick={() => setTab("alertas")} style={{ color:C.stalled, fontWeight:800, cursor:"pointer" }}>
+                  Alerta A7 →
+                </a>
+              </div>
+              <div style={{ margin:"10px 12px 0", fontSize:11.5, color:C.inkSoft }}>
+                Fuente: {obrasViales.fuente}
+              </div>
             </div>
           </div>
           );
