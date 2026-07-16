@@ -760,7 +760,7 @@ export default function App() {
                 </a>
               </div>
               <div style={{ margin:"10px 12px 0", fontSize:11.5, color:C.inkSoft }}>
-                Fuente: {obrasViales.fuente}
+                📄 Fuente: {obrasViales.fuente}
               </div>
             </div>
           </div>
