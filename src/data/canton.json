@@ -19,12 +19,12 @@
     { "anio": "2026", "evento": "Nace CívicosCR: la primera plataforma ciudadana de transparencia municipal del cantón." }
   ],
   "fotos": [
-    { "archivo": "hero.jpg",    "alt": "Panorámica de Desamparados" },
+    { "archivo": "hero.jpg",    "alt": "Calle de Desamparados con vista a la montaña" },
     { "archivo": "iglesia.jpg", "alt": "Iglesia de Desamparados, frente al Parque Centenario" },
-    { "archivo": "parque.jpg",  "alt": "Parque Centenario" },
-    { "archivo": "rosario.jpg", "alt": "Iglesia de El Rosario, patrimonio nacional" },
-    { "archivo": "frailes.jpg", "alt": "Cafetales de Frailes" },
-    { "archivo": "canton.jpg",  "alt": "Vida cotidiana en el cantón" }
+    { "archivo": "escuela.jpg", "alt": "Escuela del cantón de Desamparados" },
+    { "archivo": "canton.jpg",  "alt": "Calle del cantón con vista a la montaña" },
+    { "archivo": "bandera.jpg", "alt": "Bandera del cantón de Desamparados" }
   ],
+  "creditos_fotos": "Fotografías obtenidas de Wikimedia Commons bajo licencias Creative Commons.",
   "fuente": "Sitio oficial de la Municipalidad de Desamparados (sección El Cantón · Datos Generales)"
 }
