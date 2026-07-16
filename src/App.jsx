@@ -229,6 +229,12 @@ export default function App() {
               ))}
             </div>
 
+            {canton.creditos_fotos && (
+              <div style={{ fontSize:11, color:C.inkSoft, fontStyle:"italic", marginBottom:26, marginTop:-16 }}>
+                📷 {canton.creditos_fotos}
+              </div>
+            )}
+
             {/* Línea de tiempo */}
             <h3 className="disp" style={{ fontSize:19, fontWeight:900, margin:"0 0 14px" }}>
               📜 Historia en 7 momentos
